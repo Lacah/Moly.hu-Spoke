@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>isbn_search</internal_name>
-        <label_cache>[{"name":"{{action.q}}","label":"action➛ISBN","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"6c1e6afc-5dbf-412a-9029-b91456b3d9c4"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].sn_auth_token}}","label":"step➛OpenAPI/Postman➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].response_body}}","label":"step➛OpenAPI/Postman➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.id}}","label":"step➛JSON Parser step➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.author}}","label":"step➛JSON Parser step➛root➛author","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.title}}","label":"step➛JSON Parser step➛root➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.cover}}","label":"step➛JSON Parser step➛root➛cover","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.q}}","label":"action➛ISBN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"6c1e6afc-5dbf-412a-9029-b91456b3d9c4"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].sn_auth_token}}","label":"step➛OpenAPI/Postman➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].response_body}}","label":"step➛OpenAPI/Postman➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.id}}","label":"step➛JSON Parser step➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.author}}","label":"step➛JSON Parser step➛root➛author","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.title}}","label":"step➛JSON Parser step➛root➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.cover}}","label":"step➛JSON Parser step➛root➛cover","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>b9925d0d4742b210eec61525f16d43d3</master_snapshot>
         <master_snapshot_digest/>
         <name>ISBN search</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5925d0d4742b210eec61525f16d431c</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>ISBN search</sys_name>
         <sys_overrides/>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e5925d0d4742b210eec61525f16d431c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:38</sys_updated_on>
+        <sys_updated_on>2025-12-25 20:46:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -282,7 +282,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a49b69c51bceb210d360eb52b24bcb7d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -290,7 +290,7 @@
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:32</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:54:58</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -390,7 +390,7 @@
         <sys_created_on>2025-12-24 13:30:37</sys_created_on>
         <sys_id>289b69c51bceb210d360eb52b24bcb83</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -771,7 +771,7 @@
         <sys_created_on>2025-12-24 12:07:31</sys_created_on>
         <sys_id>4b88d50d1b0eb210d360eb52b24bcb56</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -781,12 +781,12 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=e5925d0d4742b210eec61525f16d431c^sys_idNOT IN4cf8954d1b0eb210d360eb52b24bcbd3"/>
+    <sys_hub_action_input action="delete_multiple" query="model=e5925d0d4742b210eec61525f16d431c^sys_idNOT IN6f91b7151b06b610d360eb52b24bcbac"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6c1e6afc-5dbf-412a-9029-b91456b3d9c4</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6c1e6afc-5dbf-412a-9029-b91456b3d9c4</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -818,10 +818,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <label>ISBN</label>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
         <model display_value="ISBN search">e5925d0d4742b210eec61525f16d431c</model>
         <model_id>e5925d0d4742b210eec61525f16d431c</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
@@ -843,8 +843,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-24 12:09:13</sys_created_on>
-        <sys_id>4cf8954d1b0eb210d360eb52b24bcbd3</sys_id>
+        <sys_created_on>2025-12-25 17:54:46</sys_created_on>
+        <sys_id>6f91b7151b06b610d360eb52b24bcbac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -852,7 +852,7 @@
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 12:09:13</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:54:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -865,7 +865,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4cf8954d1b0eb210d360eb52b24bcbd3"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6f91b7151b06b610d360eb52b24bcbac"/>
     <sys_hub_action_output action="delete_multiple" query="model=e5925d0d4742b210eec61525f16d431c^sys_idNOT IN31dbe1091bceb210d360eb52b24bcb52,3ddbe1091bceb210d360eb52b24bcb6a,7ddbe1091bceb210d360eb52b24bcb5c,c788d50d1b0eb210d360eb52b24bcb94,df88d50d1b0eb210d360eb52b24bcb9b,ebb89d0d1b0eb210d360eb52b24bcb94,f1dbe1091bceb210d360eb52b24bcb71"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1280,14 +1280,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-24 12:07:31</sys_created_on>
         <sys_id>df88d50d1b0eb210d360eb52b24bcb9b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:32</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:54:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1367,14 +1367,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-24 12:08:22</sys_created_on>
         <sys_id>ebb89d0d1b0eb210d360eb52b24bcb94</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:33</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:54:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1512,16 +1512,16 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-24 12:09:13</sys_created_on>
-        <sys_id>c8f8954d1b0eb210d360eb52b24bcbf2</sys_id>
+        <sys_created_on>2025-12-25 17:54:46</sys_created_on>
+        <sys_id>ef91b7151b06b610d360eb52b24bcbb2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ISBN</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 12:09:13</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:54:46</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1539,7 +1539,7 @@
         <sys_created_on>2025-12-24 12:08:22</sys_created_on>
         <sys_id>2fb89d0d1b0eb210d360eb52b24bcb9a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Book JSON</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1562,7 +1562,7 @@
         <sys_created_on>2025-12-24 13:31:48</sys_created_on>
         <sys_id>31dbe1091bceb210d360eb52b24bcb57</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ID</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1585,7 +1585,7 @@
         <sys_created_on>2025-12-24 13:31:48</sys_created_on>
         <sys_id>31dbe1091bceb210d360eb52b24bcb62</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Author</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1608,7 +1608,7 @@
         <sys_created_on>2025-12-24 13:31:48</sys_created_on>
         <sys_id>35dbe1091bceb210d360eb52b24bcb76</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Cover</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1631,7 +1631,7 @@
         <sys_created_on>2025-12-24 12:07:31</sys_created_on>
         <sys_id>d388d50d1b0eb210d360eb52b24bcba4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1654,7 +1654,7 @@
         <sys_created_on>2025-12-24 12:07:31</sys_created_on>
         <sys_id>db88d50d1b0eb210d360eb52b24bcb9a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1677,7 +1677,7 @@
         <sys_created_on>2025-12-24 13:31:48</sys_created_on>
         <sys_id>fddbe1091bceb210d360eb52b24bcb6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -1719,7 +1719,7 @@
         <description/>
         <flow_priority/>
         <internal_name>isbn_search</internal_name>
-        <label_cache>[{"name":"{{action.q}}","label":"action➛ISBN","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"6c1e6afc-5dbf-412a-9029-b91456b3d9c4"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].sn_auth_token}}","label":"step➛OpenAPI/Postman➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].response_body}}","label":"step➛OpenAPI/Postman➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.id}}","label":"step➛JSON Parser step➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.author}}","label":"step➛JSON Parser step➛root➛author","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.title}}","label":"step➛JSON Parser step➛root➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.cover}}","label":"step➛JSON Parser step➛root➛cover","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.q}}","label":"action➛ISBN","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"6c1e6afc-5dbf-412a-9029-b91456b3d9c4"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[60217261-1531-4715-0149-957609346039].sn_auth_token}}","label":"step➛OpenAPI/Postman➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[60217261-1531-4715-0149-957609346039].response_body}}","label":"step➛OpenAPI/Postman➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.id}}","label":"step➛JSON Parser step➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.author}}","label":"step➛JSON Parser step➛root➛author","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.title}}","label":"step➛JSON Parser step➛root➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a494aca7-1add-4aa3-9660-52f0d6388b1b].root.cover}}","label":"step➛JSON Parser step➛root➛cover","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>ISBN search</name>
         <natlang/>
@@ -1732,7 +1732,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9925d0d4742b210eec61525f16d43d3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1740,7 +1740,7 @@
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:35</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1983,7 +1983,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e50c6d091bceb210d360eb52b24bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1991,7 +1991,7 @@
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:36</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:03</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2091,7 +2091,7 @@
         <sys_created_on>2025-12-24 13:32:36</sys_created_on>
         <sys_id>690c6d091bceb210d360eb52b24bcbaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -2472,7 +2472,7 @@
         <sys_created_on>2025-12-24 12:10:16</sys_created_on>
         <sys_id>ef29918d1b0eb210d360eb52b24bcb7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -2482,12 +2482,12 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=b9925d0d4742b210eec61525f16d43d3^sys_idNOT IN9b29918d1b0eb210d360eb52b24bcb5e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=b9925d0d4742b210eec61525f16d43d3^sys_idNOT INe7a1bb151b06b610d360eb52b24bcbef"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6c1e6afc-5dbf-412a-9029-b91456b3d9c4</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6c1e6afc-5dbf-412a-9029-b91456b3d9c4</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2519,10 +2519,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <label>ISBN</label>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <max_length>8000</max_length>
         <model display_value="ISBN search">b9925d0d4742b210eec61525f16d43d3</model>
         <model_id>b9925d0d4742b210eec61525f16d43d3</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
@@ -2544,8 +2544,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-24 12:10:16</sys_created_on>
-        <sys_id>9b29918d1b0eb210d360eb52b24bcb5e</sys_id>
+        <sys_created_on>2025-12-25 17:55:03</sys_created_on>
+        <sys_id>e7a1bb151b06b610d360eb52b24bcbef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -2553,7 +2553,7 @@
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 12:10:16</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2566,7 +2566,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b29918d1b0eb210d360eb52b24bcb5e"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e7a1bb151b06b610d360eb52b24bcbef"/>
     <sys_hub_action_output action="delete_multiple" query="model=b9925d0d4742b210eec61525f16d43d3^sys_idNOT IN3d0c6d091bceb210d360eb52b24bcbff,6b29918d1b0eb210d360eb52b24bcb98,b9929d0d4742b210eec61525f16d430a,e10c6d091bceb210d360eb52b24bcbce,f10cad091bceb210d360eb52b24bcb06,f50c6d091bceb210d360eb52b24bcbe5,f5929d0d4742b210eec61525f16d4311"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2720,14 +2720,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-24 12:10:17</sys_created_on>
         <sys_id>6b29918d1b0eb210d360eb52b24bcb98</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:37</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3155,14 +3155,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-24 11:41:29</sys_created_on>
         <sys_id>f5929d0d4742b210eec61525f16d4311</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:37</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3188,7 +3188,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-12-24 11:41:29</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=bd929d0d4742b210eec61525f16d4322^sys_idNOT INb10cad091bceb210d360eb52b24bcb1e"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=bd929d0d4742b210eec61525f16d4322^sys_idNOT INc4b1fb151b06b610d360eb52b24bcb75"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 24/12/2025 12:41:29">bd929d0d4742b210eec61525f16d4322</action_status_metadata_id>
         <condition>{{step[60217261-1531-4715-0149-957609346039].error_code}}!=0</condition>
@@ -3197,11 +3197,11 @@
         <order>1</order>
         <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[60217261-1531-4715-0149-957609346039].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-24 13:32:37</sys_created_on>
-        <sys_id>b10cad091bceb210d360eb52b24bcb1e</sys_id>
+        <sys_created_on>2025-12-25 17:55:04</sys_created_on>
+        <sys_id>c4b1fb151b06b610d360eb52b24bcb75</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 13:32:37</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:04</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>q</element>
@@ -3213,16 +3213,16 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-12-24 12:10:16</sys_created_on>
-        <sys_id>ab29918d1b0eb210d360eb52b24bcb64</sys_id>
+        <sys_created_on>2025-12-25 17:55:03</sys_created_on>
+        <sys_id>7ba1bb151b06b610d360eb52b24bcbf5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ISBN</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 12:10:16</sys_updated_on>
+        <sys_updated_on>2025-12-25 17:55:03</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3240,7 +3240,7 @@
         <sys_created_on>2025-12-24 13:32:36</sys_created_on>
         <sys_id>250c6d091bceb210d360eb52b24bcbd3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ID</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -3263,7 +3263,7 @@
         <sys_created_on>2025-12-24 13:32:37</sys_created_on>
         <sys_id>350cad091bceb210d360eb52b24bcb0b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Cover</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -3286,7 +3286,7 @@
         <sys_created_on>2025-12-24 11:41:29</sys_created_on>
         <sys_id>35929d0d4742b210eec61525f16d4310</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -3309,7 +3309,7 @@
         <sys_created_on>2025-12-24 13:32:37</sys_created_on>
         <sys_id>790c6d091bceb210d360eb52b24bcbea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Author</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -3332,7 +3332,7 @@
         <sys_created_on>2025-12-24 12:10:17</sys_created_on>
         <sys_id>ab29918d1b0eb210d360eb52b24bcb9e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Book JSON</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -3355,7 +3355,7 @@
         <sys_created_on>2025-12-24 11:41:29</sys_created_on>
         <sys_id>f1929d0d4742b210eec61525f16d4319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
@@ -3378,7 +3378,7 @@
         <sys_created_on>2025-12-24 13:32:37</sys_created_on>
         <sys_id>fd0cad091bceb210d360eb52b24bcb04</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
         <sys_policy/>
         <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
