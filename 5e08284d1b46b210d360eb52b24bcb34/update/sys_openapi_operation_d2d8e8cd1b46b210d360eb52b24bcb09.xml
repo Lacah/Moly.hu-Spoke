@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation">
+    <sys_openapi_operation action="INSERT_OR_UPDATE">
+        <complex_object_ids/>
+        <deprecated>false</deprecated>
+        <http_method>get</http_method>
+        <name>Idézetek</name>
+        <openapi display_value="Moly.hu-2.1.0">d2d8a8cd1b46b210d360eb52b24bcbd3</openapi>
+        <path>book_citations/{bookId}.json</path>
+        <serialized_operation>{"fName":"Idézetek","fOperationId":"operation_Idzetek","fDescription":"","fPath":"book_citations/{bookId}.json","fHttpMethod":"GET","fDeprecated":false,"fResponses":[],"fParameters":[{"fName":"bookId","fRequired":true,"fDeprecated":false,"fAllowEmptyValue":false,"fAllowReserved":false,"fParameterType":"path","fExplode":false,"fStyle":"simple","fContents":[{"fSchema":{"fName":"bookId2738549362","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"string","fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"string"}}]},{"fName":"key","fRequired":true,"fDeprecated":false,"fAllowEmptyValue":false,"fAllowReserved":false,"fParameterType":"query","fExplode":false,"fStyle":"form","fContents":[{"fSchema":{"fName":"key3026279664","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"string","fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"string"}}]}],"fTags":[]}</serialized_operation>
+        <sys_class_name>sys_openapi_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:39:06</sys_created_on>
+        <sys_id>d2d8e8cd1b46b210d360eb52b24bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Idézetek</sys_name>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name>sys_openapi_operation_d2d8e8cd1b46b210d360eb52b24bcb09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:39:06</sys_updated_on>
+    </sys_openapi_operation>
+</record_update>

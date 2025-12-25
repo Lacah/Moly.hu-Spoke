@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>isbnkeres</internal_name>
+        <label_cache>[{"name":"{{action.q}}","label":"action➛q","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{action.key}}","label":"action➛key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null}]</label_cache>
+        <master_snapshot>0afc20891b86b210d360eb52b24bcbfe</master_snapshot>
+        <master_snapshot_digest/>
+        <name>ISBN search</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b4c68c51b86b210d360eb52b24bcb70</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ISBN search</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2b4c68c51b86b210d360eb52b24bcb70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_variable_value action="DELETE" query="document_key=2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb70</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:05</sys_created_on>
+        <sys_id>31fc20891b86b210d360eb52b24bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">21fc20891b86b210d360eb52b24bcb8a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb70</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:05</sys_created_on>
+        <sys_id>f9fc20891b86b210d360eb52b24bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e1fc20891b86b210d360eb52b24bcbaa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70^id=2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_hub_step_instance action="DELETE" query="action=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</action>
+        <cid>03300321-1981-4121-1070-956652704690</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>OpenAPI/Postman</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="OpenAPI/Postman">41ba6b7cc3a02110e6a899ccc840ddaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>2b4c68c51b86b210d360eb52b24bcb79</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>334c68c51b86b210d360eb52b24bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>postman_collection</value>
+        <variable display_value="Creation Source">66e84c6e9fb30210ca19fd8e0b0a1cee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>3f4c68c51b86b210d360eb52b24bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>c6cbacc91b46b210d360eb52b24bcb09</value>
+        <variable display_value="Connection Alias">7a5277f4c3e02110e6a899ccc840dd95</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>734c68c51b86b210d360eb52b24bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>book_by_isbn.json</value>
+        <variable display_value="Resource Path">2d5d7f70c3242110e6a899ccc840ddf0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>b34c68c51b86b210d360eb52b24bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>d2d8a8cd1b46b210d360eb52b24bcbd3</value>
+        <variable display_value="API Source">c1fee734c3e02110e6a899ccc840dde9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>b74c68c51b86b210d360eb52b24bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">5e433ff4c3e02110e6a899ccc840dd2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>f74c68c51b86b210d360eb52b24bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>dad8a8cd1b46b210d360eb52b24bcbf7</value>
+        <variable display_value="API Operation">d6ade3b0c3e02110e6a899ccc840dde6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2b4c68c51b86b210d360eb52b24bcb79</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>fb4c68c51b86b210d360eb52b24bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">156c7f30c3242110e6a899ccc840dd93</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_element_mapping action="DELETE">
+        <field>api_operation</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>b74c68c51b86b210d360eb52b24bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>api_source</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>734c68c51b86b210d360eb52b24bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>connection_alias</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>fb4c68c51b86b210d360eb52b24bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>creation_source</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>ff4c68c51b86b210d360eb52b24bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>headers</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>774c68c51b86b210d360eb52b24bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>query_params</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>bb4c68c51b86b210d360eb52b24bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>{"type":"ADV_NV","value":[{"name":"q","value":"{{action.q}}","attributes":{}},{"name":"key","value":"{{action.key}}","attributes":{}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>resource_path</field>
+        <id>2b4c68c51b86b210d360eb52b24bcb79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:13</sys_created_on>
+        <sys_id>334c68c51b86b210d360eb52b24bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=2b4c68c51b86b210d360eb52b24bcb79"/>
+    <sys_hub_action_input action="DELETE" query="model=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN334c68c51b86b210d360eb52b24bcbb4,b74c68c51b86b210d360eb52b24bcbad"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=868789ea-39e6-41fc-be70-e785c9903933</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>key</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</model>
+        <model_id>2b4c68c51b86b210d360eb52b24bcb70</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:14</sys_created_on>
+        <sys_id>334c68c51b86b210d360eb52b24bcbb4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=334c68c51b86b210d360eb52b24bcbb4"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b3b5d96-201f-4fca-a25b-6c99158ff1be</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>q</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>q</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</model>
+        <model_id>2b4c68c51b86b210d360eb52b24bcb70</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:14</sys_created_on>
+        <sys_id>b74c68c51b86b210d360eb52b24bcbad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=b74c68c51b86b210d360eb52b24bcbad"/>
+    <sys_hub_action_output action="DELETE" query="model=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN21fc20891b86b210d360eb52b24bcb8a,e1fc20891b86b210d360eb52b24bcbaa"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=a8b9dc6b-3124-4010-a08b-7d55ce28ed48</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</model>
+        <model_id>2b4c68c51b86b210d360eb52b24bcb70</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:05</sys_created_on>
+        <sys_id>21fc20891b86b210d360eb52b24bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=21fc20891b86b210d360eb52b24bcb8a"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=21fc20891b86b210d360eb52b24bcb8a"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=51c1b4d5-bda6-4e35-9c56-d4db8f6f1955,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</model>
+        <model_id>2b4c68c51b86b210d360eb52b24bcb70</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:05</sys_created_on>
+        <sys_id>e1fc20891b86b210d360eb52b24bcbaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=e1fc20891b86b210d360eb52b24bcbaa"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=e1fc20891b86b210d360eb52b24bcbaa"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN085c68c51b86b210d360eb52b24bcbf0"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:14</sys_created_on>
+        <sys_id>085c68c51b86b210d360eb52b24bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:14</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=085c68c51b86b210d360eb52b24bcbf0^sys_idNOT INcc5c68c51b86b210d360eb52b24bcbf0"/>
+    <sys_hub_status_condition action="DELETE">
+        <action_status_metadata_id display_value="Created 24/12/2025 09:54:14">085c68c51b86b210d360eb52b24bcbf0</action_status_metadata_id>
+        <condition>{{step[03300321-1981-4121-1070-956652704690].error_code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>OpenAPI step execution has failed</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[03300321-1981-4121-1070-956652704690].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:14</sys_created_on>
+        <sys_id>cc5c68c51b86b210d360eb52b24bcbf0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="DELETE">
+        <element>key</element>
+        <help/>
+        <hint/>
+        <label>key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:14</sys_created_on>
+        <sys_id>3b4c68c51b86b210d360eb52b24bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>q</element>
+        <help/>
+        <hint/>
+        <label>q</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:54:14</sys_created_on>
+        <sys_id>ff4c68c51b86b210d360eb52b24bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:54:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:05</sys_created_on>
+        <sys_id>61fc20891b86b210d360eb52b24bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:05</sys_created_on>
+        <sys_id>65fc20891b86b210d360eb52b24bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=2b4c68c51b86b210d360eb52b24bcb70"/>
+    <sys_hub_action_type_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>isbnkeres</internal_name>
+        <label_cache>[{"name":"{{action.q}}","label":"action➛q","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{action.key}}","label":"action➛key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null}]</label_cache>
+        <master>true</master>
+        <name>ISBN search</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="ISBN search">2b4c68c51b86b210d360eb52b24bcb70</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0afc20891b86b210d360eb52b24bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:06</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=0afc20891b86b210d360eb52b24bcbfe"/>
+    <sys_variable_value action="DELETE" query="document_key=0afc20891b86b210d360eb52b24bcbfe"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0afc20891b86b210d360eb52b24bcbfe</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:08</sys_created_on>
+        <sys_id>56fc60891b86b210d360eb52b24bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:08</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">56fc60891b86b210d360eb52b24bcb69</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0afc20891b86b210d360eb52b24bcbfe</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:08</sys_created_on>
+        <sys_id>9afc60891b86b210d360eb52b24bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:08</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">02fc60891b86b210d360eb52b24bcb62</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe^id=0afc20891b86b210d360eb52b24bcbfe"/>
+    <sys_hub_step_instance action="DELETE" query="action=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT INc2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="ISBN search">0afc20891b86b210d360eb52b24bcbfe</action>
+        <cid>03300321-1981-4121-1070-956652704690</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>OpenAPI/Postman</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="OpenAPI/Postman">41ba6b7cc3a02110e6a899ccc840ddaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>c2fc60891b86b210d360eb52b24bcb31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=c2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>06fc60891b86b210d360eb52b24bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>c6cbacc91b46b210d360eb52b24bcb09</value>
+        <variable display_value="Connection Alias">7a5277f4c3e02110e6a899ccc840dd95</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>0afc60891b86b210d360eb52b24bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>postman_collection</value>
+        <variable display_value="Creation Source">66e84c6e9fb30210ca19fd8e0b0a1cee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>4afc60891b86b210d360eb52b24bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>book_by_isbn.json</value>
+        <variable display_value="Resource Path">2d5d7f70c3242110e6a899ccc840ddf0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>8afc60891b86b210d360eb52b24bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>d2d8a8cd1b46b210d360eb52b24bcbd3</value>
+        <variable display_value="API Source">c1fee734c3e02110e6a899ccc840dde9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>8efc60891b86b210d360eb52b24bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">5e433ff4c3e02110e6a899ccc840dd2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>c2fc60891b86b210d360eb52b24bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">156c7f30c3242110e6a899ccc840dd93</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2fc60891b86b210d360eb52b24bcb31</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>cefc60891b86b210d360eb52b24bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <value>dad8a8cd1b46b210d360eb52b24bcbf7</value>
+        <variable display_value="API Operation">d6ade3b0c3e02110e6a899ccc840dde6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_element_mapping action="DELETE">
+        <field>api_operation</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>8efc60891b86b210d360eb52b24bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>api_source</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>4afc60891b86b210d360eb52b24bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>connection_alias</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>c2fc60891b86b210d360eb52b24bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>creation_source</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>c6fc60891b86b210d360eb52b24bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>headers</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>4efc60891b86b210d360eb52b24bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>query_params</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>82fc60891b86b210d360eb52b24bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>{"type":"ADV_NV","value":[{"name":"q","value":"{{action.q}}","attributes":{}},{"name":"key","value":"{{action.key}}","attributes":{}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>resource_path</field>
+        <id>c2fc60891b86b210d360eb52b24bcb31</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>0afc60891b86b210d360eb52b24bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=c2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=c2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=c2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=c2fc60891b86b210d360eb52b24bcb31"/>
+    <sys_hub_action_input action="DELETE" query="model=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT IN46fc60891b86b210d360eb52b24bcb04,cafc60891b86b210d360eb52b24bcb0b"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b3b5d96-201f-4fca-a25b-6c99158ff1be</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>q</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>q</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ISBN search">0afc20891b86b210d360eb52b24bcbfe</model>
+        <model_id>0afc20891b86b210d360eb52b24bcbfe</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:06</sys_created_on>
+        <sys_id>46fc60891b86b210d360eb52b24bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=46fc60891b86b210d360eb52b24bcb04"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=868789ea-39e6-41fc-be70-e785c9903933</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>key</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="ISBN search">0afc20891b86b210d360eb52b24bcbfe</model>
+        <model_id>0afc20891b86b210d360eb52b24bcbfe</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>cafc60891b86b210d360eb52b24bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=cafc60891b86b210d360eb52b24bcb0b"/>
+    <sys_hub_action_output action="DELETE" query="model=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT IN02fc60891b86b210d360eb52b24bcb62,56fc60891b86b210d360eb52b24bcb69"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=a8b9dc6b-3124-4010-a08b-7d55ce28ed48</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="ISBN search">0afc20891b86b210d360eb52b24bcbfe</model>
+        <model_id>0afc20891b86b210d360eb52b24bcbfe</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>02fc60891b86b210d360eb52b24bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=02fc60891b86b210d360eb52b24bcb62"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=02fc60891b86b210d360eb52b24bcb62"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=51c1b4d5-bda6-4e35-9c56-d4db8f6f1955,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="ISBN search">0afc20891b86b210d360eb52b24bcbfe</model>
+        <model_id>0afc20891b86b210d360eb52b24bcbfe</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>56fc60891b86b210d360eb52b24bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=56fc60891b86b210d360eb52b24bcb69"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=56fc60891b86b210d360eb52b24bcb69"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=0afc20891b86b210d360eb52b24bcbfe"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT INd2fc60891b86b210d360eb52b24bcb88"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="ISBN search">0afc20891b86b210d360eb52b24bcbfe</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:08</sys_created_on>
+        <sys_id>d2fc60891b86b210d360eb52b24bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:08</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=d2fc60891b86b210d360eb52b24bcb88^sys_idNOT IN1afc60891b86b210d360eb52b24bcb88"/>
+    <sys_hub_status_condition action="DELETE">
+        <action_status_metadata_id display_value="Created 24/12/2025 09:57:08">d2fc60891b86b210d360eb52b24bcb88</action_status_metadata_id>
+        <condition>{{step[03300321-1981-4121-1070-956652704690].error_code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>OpenAPI step execution has failed</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[03300321-1981-4121-1070-956652704690].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:08</sys_created_on>
+        <sys_id>1afc60891b86b210d360eb52b24bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:08</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="DELETE">
+        <element>q</element>
+        <help/>
+        <hint/>
+        <label>q</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>4afc60891b86b210d360eb52b24bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>key</element>
+        <help/>
+        <hint/>
+        <label>key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>cafc60891b86b210d360eb52b24bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe"/>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:08</sys_created_on>
+        <sys_id>9efc60891b86b210d360eb52b24bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:07</sys_created_on>
+        <sys_id>d2fc60891b86b210d360eb52b24bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe"/>
+    <sys_hub_action_type_definition action="DELETE">
+        <sys_id>2b4c68c51b86b210d360eb52b24bcb70</sys_id>
+        <latest_snapshot>0afc20891b86b210d360eb52b24bcbfe</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
+    </sys_hub_action_type_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</application>
+        <file_path/>
+        <instance_id>59af73782b92aa54e83bf9f66e91bf50</instance_id>
+        <instance_name>csucsu</instance_name>
+        <name>sys_hub_action_type_definition_2b4c68c51b86b210d360eb52b24bcb70</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;{labelCacheCleanUpExecuted=true}&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority/&gt;&lt;ih_action&gt;true&lt;/ih_action&gt;&lt;internal_name&gt;isbnkeres&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.q}}","label":"action➛q","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{action.key}}","label":"action➛key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null}]&lt;/label_cache&gt;&lt;master_snapshot&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;ISBN search&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;state&gt;published&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;ISBN search&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_2b4c68c51b86b210d360eb52b24bcb70&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:08&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:05&lt;/sys_created_on&gt;&lt;sys_id&gt;31fc20891b86b210d360eb52b24bcbba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;21fc20891b86b210d360eb52b24bcb8a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:05&lt;/sys_created_on&gt;&lt;sys_id&gt;f9fc20891b86b210d360eb52b24bcbb9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;e1fc20891b86b210d360eb52b24bcbaa&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70^id=2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/action&gt;&lt;cid&gt;03300321-1981-4121-1070-956652704690&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;OpenAPI/Postman&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="OpenAPI/Postman"&gt;41ba6b7cc3a02110e6a899ccc840ddaa&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;334c68c51b86b210d360eb52b24bcb95&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;postman_collection&lt;/value&gt;&lt;variable display_value="Creation Source"&gt;66e84c6e9fb30210ca19fd8e0b0a1cee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;3f4c68c51b86b210d360eb52b24bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;c6cbacc91b46b210d360eb52b24bcb09&lt;/value&gt;&lt;variable display_value="Connection Alias"&gt;7a5277f4c3e02110e6a899ccc840dd95&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;734c68c51b86b210d360eb52b24bcb94&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;book_by_isbn.json&lt;/value&gt;&lt;variable display_value="Resource Path"&gt;2d5d7f70c3242110e6a899ccc840ddf0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;15&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b34c68c51b86b210d360eb52b24bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;d2d8a8cd1b46b210d360eb52b24bcbd3&lt;/value&gt;&lt;variable display_value="API Source"&gt;c1fee734c3e02110e6a899ccc840dde9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b74c68c51b86b210d360eb52b24bcb94&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[]}&lt;/value&gt;&lt;variable display_value="Headers"&gt;5e433ff4c3e02110e6a899ccc840dd2b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;16&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;f74c68c51b86b210d360eb52b24bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;dad8a8cd1b46b210d360eb52b24bcbf7&lt;/value&gt;&lt;variable display_value="API Operation"&gt;d6ade3b0c3e02110e6a899ccc840dde6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;fb4c68c51b86b210d360eb52b24bcb94&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;value&gt;{}&lt;/value&gt;&lt;variable display_value="Query Parameters"&gt;156c7f30c3242110e6a899ccc840dd93&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;api_operation&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b74c68c51b86b210d360eb52b24bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;api_source&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;734c68c51b86b210d360eb52b24bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connection_alias&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;fb4c68c51b86b210d360eb52b24bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;creation_source&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;ff4c68c51b86b210d360eb52b24bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;headers&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;774c68c51b86b210d360eb52b24bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;query_params&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;bb4c68c51b86b210d360eb52b24bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value&gt;{"type":"ADV_NV","value":[{"name":"q","value":"{{action.q}}","attributes":{}},{"name":"key","value":"{{action.key}}","attributes":{}}]}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;resource_path&lt;/field&gt;&lt;id&gt;2b4c68c51b86b210d360eb52b24bcb79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:13&lt;/sys_created_on&gt;&lt;sys_id&gt;334c68c51b86b210d360eb52b24bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=2b4c68c51b86b210d360eb52b24bcb79"/&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN334c68c51b86b210d360eb52b24bcbb4,b74c68c51b86b210d360eb52b24bcbad"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=868789ea-39e6-41fc-be70-e785c9903933&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;key&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;key&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model&gt;&lt;model_id&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:14&lt;/sys_created_on&gt;&lt;sys_id&gt;334c68c51b86b210d360eb52b24bcbb4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=334c68c51b86b210d360eb52b24bcbb4"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b3b5d96-201f-4fca-a25b-6c99158ff1be&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;q&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;q&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model&gt;&lt;model_id&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:14&lt;/sys_created_on&gt;&lt;sys_id&gt;b74c68c51b86b210d360eb52b24bcbad&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b74c68c51b86b210d360eb52b24bcbad"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN21fc20891b86b210d360eb52b24bcb8a,e1fc20891b86b210d360eb52b24bcbaa"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=a8b9dc6b-3124-4010-a08b-7d55ce28ed48&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model&gt;&lt;model_id&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:05&lt;/sys_created_on&gt;&lt;sys_id&gt;21fc20891b86b210d360eb52b24bcb8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=21fc20891b86b210d360eb52b24bcb8a"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=21fc20891b86b210d360eb52b24bcb8a"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=51c1b4d5-bda6-4e35-9c56-d4db8f6f1955,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model&gt;&lt;model_id&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:05&lt;/sys_created_on&gt;&lt;sys_id&gt;e1fc20891b86b210d360eb52b24bcbaa&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e1fc20891b86b210d360eb52b24bcbaa"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=e1fc20891b86b210d360eb52b24bcbaa"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2b4c68c51b86b210d360eb52b24bcb70^sys_idNOT IN085c68c51b86b210d360eb52b24bcbf0"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:14&lt;/sys_created_on&gt;&lt;sys_id&gt;085c68c51b86b210d360eb52b24bcbf0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:14&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=085c68c51b86b210d360eb52b24bcbf0^sys_idNOT INcc5c68c51b86b210d360eb52b24bcbf0"/&gt;&lt;sys_hub_status_condition action="INSERT_OR_UPDATE"&gt;&lt;action_status_metadata_id display_value="Created 24/12/2025 09:54:14"&gt;085c68c51b86b210d360eb52b24bcbf0&lt;/action_status_metadata_id&gt;&lt;condition&gt;{{step[03300321-1981-4121-1070-956652704690].error_code}}!=0&lt;/condition&gt;&lt;dont_treat_as_error&gt;false&lt;/dont_treat_as_error&gt;&lt;label&gt;OpenAPI step execution has failed&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;status&gt;{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[03300321-1981-4121-1070-956652704690].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}&lt;/status&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:14&lt;/sys_created_on&gt;&lt;sys_id&gt;cc5c68c51b86b210d360eb52b24bcbf0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;/sys_hub_status_condition&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;key&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;key&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:14&lt;/sys_created_on&gt;&lt;sys_id&gt;3b4c68c51b86b210d360eb52b24bcbb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:14&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;q&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;q&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:54:14&lt;/sys_created_on&gt;&lt;sys_id&gt;ff4c68c51b86b210d360eb52b24bcbb2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:54:14&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:05&lt;/sys_created_on&gt;&lt;sys_id&gt;61fc20891b86b210d360eb52b24bcba9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:05&lt;/sys_created_on&gt;&lt;sys_id&gt;65fc20891b86b210d360eb52b24bcbb2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_hub_action_plan action="delete_multiple" query="action_id=2b4c68c51b86b210d360eb52b24bcb70"/&gt;&lt;sys_hub_action_type_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;annotation/&gt;&lt;attributes&gt;{labelCacheCleanUpExecuted=true}&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority/&gt;&lt;internal_name&gt;isbnkeres&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.q}}","label":"action➛q","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{action.key}}","label":"action➛key","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[03300321-1981-4121-1070-956652704690].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;ISBN search&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_action display_value="ISBN search"&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/parent_action&gt;&lt;sys_class_name&gt;sys_hub_action_type_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:06&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0afc20891b86b210d360eb52b24bcbfe"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0afc20891b86b210d360eb52b24bcbfe"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;56fc60891b86b210d360eb52b24bcb85&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:08&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;56fc60891b86b210d360eb52b24bcb69&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;9afc60891b86b210d360eb52b24bcb85&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:08&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;02fc60891b86b210d360eb52b24bcb62&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe^id=0afc20891b86b210d360eb52b24bcbfe"/&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT INc2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="ISBN search"&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/action&gt;&lt;cid&gt;03300321-1981-4121-1070-956652704690&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;OpenAPI/Postman&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="OpenAPI/Postman"&gt;41ba6b7cc3a02110e6a899ccc840ddaa&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;06fc60891b86b210d360eb52b24bcb4e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;c6cbacc91b46b210d360eb52b24bcb09&lt;/value&gt;&lt;variable display_value="Connection Alias"&gt;7a5277f4c3e02110e6a899ccc840dd95&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;0afc60891b86b210d360eb52b24bcb4f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;postman_collection&lt;/value&gt;&lt;variable display_value="Creation Source"&gt;66e84c6e9fb30210ca19fd8e0b0a1cee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;4afc60891b86b210d360eb52b24bcb4e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;book_by_isbn.json&lt;/value&gt;&lt;variable display_value="Resource Path"&gt;2d5d7f70c3242110e6a899ccc840ddf0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;15&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;8afc60891b86b210d360eb52b24bcb4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;d2d8a8cd1b46b210d360eb52b24bcbd3&lt;/value&gt;&lt;variable display_value="API Source"&gt;c1fee734c3e02110e6a899ccc840dde9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;8efc60891b86b210d360eb52b24bcb4e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[]}&lt;/value&gt;&lt;variable display_value="Headers"&gt;5e433ff4c3e02110e6a899ccc840dd2b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c2fc60891b86b210d360eb52b24bcb4f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;{}&lt;/value&gt;&lt;variable display_value="Query Parameters"&gt;156c7f30c3242110e6a899ccc840dd93&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/document_key&gt;&lt;order&gt;16&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;cefc60891b86b210d360eb52b24bcb4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;value&gt;dad8a8cd1b46b210d360eb52b24bcbf7&lt;/value&gt;&lt;variable display_value="API Operation"&gt;d6ade3b0c3e02110e6a899ccc840dde6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;api_operation&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;8efc60891b86b210d360eb52b24bcb4b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;api_source&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;4afc60891b86b210d360eb52b24bcb4b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connection_alias&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c2fc60891b86b210d360eb52b24bcb4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;creation_source&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;c6fc60891b86b210d360eb52b24bcb4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;headers&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;4efc60891b86b210d360eb52b24bcb4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;query_params&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;82fc60891b86b210d360eb52b24bcb4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value&gt;{"type":"ADV_NV","value":[{"name":"q","value":"{{action.q}}","attributes":{}},{"name":"key","value":"{{action.key}}","attributes":{}}]}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;resource_path&lt;/field&gt;&lt;id&gt;c2fc60891b86b210d360eb52b24bcb31&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;0afc60891b86b210d360eb52b24bcb4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=c2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=c2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c2fc60891b86b210d360eb52b24bcb31"/&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT IN46fc60891b86b210d360eb52b24bcb04,cafc60891b86b210d360eb52b24bcb0b"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b3b5d96-201f-4fca-a25b-6c99158ff1be&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;q&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;q&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model&gt;&lt;model_id&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:06&lt;/sys_created_on&gt;&lt;sys_id&gt;46fc60891b86b210d360eb52b24bcb04&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:06&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=46fc60891b86b210d360eb52b24bcb04"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=868789ea-39e6-41fc-be70-e785c9903933&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;key&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;key&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model&gt;&lt;model_id&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;cafc60891b86b210d360eb52b24bcb0b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cafc60891b86b210d360eb52b24bcb0b"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT IN02fc60891b86b210d360eb52b24bcb62,56fc60891b86b210d360eb52b24bcb69"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=a8b9dc6b-3124-4010-a08b-7d55ce28ed48&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model&gt;&lt;model_id&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;02fc60891b86b210d360eb52b24bcb62&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02fc60891b86b210d360eb52b24bcb62"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=02fc60891b86b210d360eb52b24bcb62"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=51c1b4d5-bda6-4e35-9c56-d4db8f6f1955,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="ISBN search"&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model&gt;&lt;model_id&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;56fc60891b86b210d360eb52b24bcb69&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=56fc60891b86b210d360eb52b24bcb69"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=56fc60891b86b210d360eb52b24bcb69"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=0afc20891b86b210d360eb52b24bcbfe"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0afc20891b86b210d360eb52b24bcbfe^sys_idNOT INd2fc60891b86b210d360eb52b24bcb88"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="ISBN search"&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;d2fc60891b86b210d360eb52b24bcb88&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:08&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d2fc60891b86b210d360eb52b24bcb88^sys_idNOT IN1afc60891b86b210d360eb52b24bcb88"/&gt;&lt;sys_hub_status_condition action="INSERT_OR_UPDATE"&gt;&lt;action_status_metadata_id display_value="Created 24/12/2025 09:57:08"&gt;d2fc60891b86b210d360eb52b24bcb88&lt;/action_status_metadata_id&gt;&lt;condition&gt;{{step[03300321-1981-4121-1070-956652704690].error_code}}!=0&lt;/condition&gt;&lt;dont_treat_as_error&gt;false&lt;/dont_treat_as_error&gt;&lt;label&gt;OpenAPI step execution has failed&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;status&gt;{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[03300321-1981-4121-1070-956652704690].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}&lt;/status&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;1afc60891b86b210d360eb52b24bcb88&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:08&lt;/sys_updated_on&gt;&lt;/sys_hub_status_condition&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;q&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;q&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;4afc60891b86b210d360eb52b24bcb0a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;key&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;key&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;cafc60891b86b210d360eb52b24bcb10&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0afc20891b86b210d360eb52b24bcbfe"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;9efc60891b86b210d360eb52b24bcb7d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:08&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-24 08:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;d2fc60891b86b210d360eb52b24bcb68&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Moly.hu Spoke"&gt;5e08284d1b46b210d360eb52b24bcb34&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-24 08:57:07&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0afc20891b86b210d360eb52b24bcbfe"/&gt;&lt;sys_hub_action_type_definition action="UPDATE"&gt;&lt;sys_id&gt;2b4c68c51b86b210d360eb52b24bcb70&lt;/sys_id&gt;&lt;latest_snapshot&gt;0afc20891b86b210d360eb52b24bcbfe&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip&lt;/compiler_build&gt;&lt;/sys_hub_action_type_definition&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1187914878</payload_hash>
+        <record_name>ISBN search</record_name>
+        <reverted_from/>
+        <source>9608284d1b46b210d360eb52b24bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 08:57:09</sys_created_on>
+        <sys_id>eafca0891b86b210d360eb52b24bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b4f9390570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 08:57:09</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>aafca0890d86b21002834751166b982c</update_guid>
+        <update_guid_history>aafca0890d86b21002834751166b982c:-1187914878,71fc20895d86b210e255d9126fc8bfeb:1839518198,c85ca8c5c786b2108642d9679e0dc533:1849677310,a34c68c5b286b21069342cfc9de52975:312444109</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:37:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>772b851111d940058eb22870b0808439</sys_id>
+        <sys_metadata>2b4c68c51b86b210d360eb52b24bcb70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISBN search</sys_name>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_scope_delete display_value="">6cc7a5362e164fac8864d7fa99cbd889</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_2b4c68c51b86b210d360eb52b24bcb70</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_2b4c68c51b86b210d360eb52b24bcb70">eafca0891b86b210d360eb52b24bcb2d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:37:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,2851 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>ratings</internal_name>
+        <label_cache>[{"name":"{{action.bookid}}","label":"action➛bookId","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d83a2a1f-f3b7-4e91-88e8-2be1b2a33f0d"}},{"name":"{{step[04554969-3191-4485-9452-053012169401].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[04554969-3191-4485-9452-053012169401].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[04554969-3191-4485-9452-053012169401].sn_auth_token}}","label":"step➛OpenAPI/Postman➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[04554969-3191-4485-9452-053012169401].response_body}}","label":"step➛OpenAPI/Postman➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[845d9637-5f14-4817-a027-35fbed041679].root.reviews}}","label":"step➛JSON Parser step➛root➛reviews","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>1692dd0d4742b210eec61525f16d4386</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Ratings</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca929d0d4742b210eec61525f16d4378</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Ratings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ca929d0d4742b210eec61525f16d4378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca929d0d4742b210eec61525f16d4378"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ca929d0d4742b210eec61525f16d4378"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ca929d0d4742b210eec61525f16d4378</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>09e7d9891b0eb210d360eb52b24bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">f8e7d9891b0eb210d360eb52b24bcb38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ca929d0d4742b210eec61525f16d4378</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>4de7d9891b0eb210d360eb52b24bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">f0e7d9891b0eb210d360eb52b24bcb31</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca929d0d4742b210eec61525f16d4378"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reviews</field>
+        <id>ca929d0d4742b210eec61525f16d4378</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:27:23</sys_created_on>
+        <sys_id>cc9831c11b42f210d360eb52b24bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:27:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</table>
+        <value>{{step[845d9637-5f14-4817-a027-35fbed041679].root.reviews}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reviews_json</field>
+        <id>ca929d0d4742b210eec61525f16d4378</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:39</sys_created_on>
+        <sys_id>22585dc91b0eb210d360eb52b24bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</table>
+        <value>{{step[04554969-3191-4485-9452-053012169401].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>ca929d0d4742b210eec61525f16d4378</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>45e7d9891b0eb210d360eb52b24bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>ca929d0d4742b210eec61525f16d4378</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>01e7d9891b0eb210d360eb52b24bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ca929d0d4742b210eec61525f16d4378^sys_idNOT IN5578f9811b42f210d360eb52b24bcbcb,ca929d0d4742b210eec61525f16d4381"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ratings">ca929d0d4742b210eec61525f16d4378</action>
+        <cid>845d9637-5f14-4817-a027-35fbed041679</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>5578f9811b42f210d360eb52b24bcbcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5578f9811b42f210d360eb52b24bcbcb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5578f9811b42f210d360eb52b24bcbcb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>5978f9811b42f210d360eb52b24bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <value>{
+    "reviews": [
+        {
+            "id": 3295378,
+            "rating": 10,
+            "review": "Már ​az első történettel megragadott ez az alig 200 oldalas novelláskötet. Azért is élmény volt olvasni ezeket az novellákat, hiszen a szerző itt még kezdő, szárnypróbálgató író boldog éveit idézi meg. A Vándorünnep az író posztumusz kötete, három évvel Hemingway halála után, 1964-ben jelent meg. \r\nhttps://gaboolvas.blogspot.com/2023/07/vandorunnep.html",
+            "url": "https://moly.hu/ertekelesek/3295378",
+            "user": {
+                "id": 21938,
+                "login": "robinson"
+            }
+        },
+        {
+            "id": 6512414,
+            "rating": 10,
+            "review": "_„- ​Hem, túl keményen írsz, túl meztelenül, túl soványan, túl rágósan._\r\n_Némi bűntudattal megtapogattam a zsebemben a nyúllábat._\r\n_– Majd megpróbálom egy kicsit felhízlalni._\r\n_– Persze, azt nem szeretném, ha elhájasodna.”_\r\n\r\nHemingway prózája nem hájasodott el soha. Pont ezt a pőreséget szeretem benne, ezt a líra nélküli abszolút mélységet. Rövid, koppanós mondatai belőlem minduntalan gazdag érzelmeket váltanak ki.\r\n\r\nA Vándorünnep című kötetét különösen szeretem, mert portrét rajzol benne önmagáról: a fiatal, kezdő íróról, aki az élet örömeinek él, házassága boldog, és a szegénységben is megtalálja a szépséget. Egyszerűsége egészen kimagasló, aszkétizmusa néhol már-már fájdalmas. Kevéssel is beéri, mégis hajtja az a fáradhatatlan belső motor: az ambíció. Következetesen ír, kitartóan, a munkájában lenyűgöző állhatatosságot mutat.\r\n\r\nA személye nem olyan rejtélyes, mint azt képzelnénk. A legelemibb szinten szemléli az őt körülvevő világot, ám mégis a mélyére lát mindennek, éles tekintete lecsap a legapróbb dolgokra. Férfias szűkszavúsága mögött tapintat fészkel, keveset mond, de annál többet érzékeltet.\r\n\r\nA megszépülő emlékek gyöngyfüzére ez a novellacsokor. Párizs varázsa, a művészek sokoldalú, színes társasága elevenedik meg előttünk általa. Dohos őszi utcák, sikátorokban megbújó, túlzsúfolt antikváriumok, dohányfüstös éttermek és kocsmák képe rémlik fel belőle. Hangulatok, törések és kudarcok, apró győzelmek, egy félresikerült vonatozás, lépcsőn tornyosuló szigorú házinénik, engedékeny feleségek, szenvedő írók, és furcsábbnál is furcsább barátok. Lehengerlően egyedi, és bámulatosan finom próza ez. Múltidézés, vallomás is egyben.\r\n\r\n_„Jól és olcsón étkeztünk, jót és olcsón ittunk, jól és összebújva, melegen aludtunk, és szerettük egymást.”_ – foglalja össze Hemingway pár szóban a Párizsban töltött fiatal éveinek minden csodáját és lényegét. Ez a gondolatesszencia hatja át az egész kötetet. Ebből táplálkozik, és mondhatni, ezen hízik meg. Szerintem ez művészet, de ki vagyok én, hogy ezt megítéljem?\r\n\r\nAz eredeti bejegyzés az alábbi linken található:\r\nhttps://tisztalappalavilagban.blogspot.com/2023/07/ernest-hemingway-vandorunnep-parizs-orok.html",
+            "url": "https://moly.hu/ertekelesek/6512414",
+            "user": {
+                "id": 128890,
+                "login": "Kabódi_Ella"
+            }
+        },
+        {
+            "id": 2067152,
+            "rating": 10,
+            "review": "Felnőtt ​tartalom!\r\nNagyon kedves könyv lett, bár az első fejezet után ebben még nem voltam biztos. \r\nAz a fajta írás, ami a kedvencem: nyugodt, végiggondolt, feltűnési vágytól mentes. Mondhatnám, hogy őszinte, de ennek aligha van jelentősége, inkább azt mondom önmagához hű. \r\nEz a fajta a tiszta hűség a legkiválóbb írók kiváltsága. és ezt most úgy mondom, hogy ebben a pillanatban azt gondolom, legfeljebb tisztelem, de nem kedvelem Hemingwayt. A könyv mégis jó. Nyilván itt kezdődik az, amit én nagyra tartok egy szerzőben. \r\nVisszaemlékezés amúgy, ha tetszik kíméletlen, ha nem tetszik, akkor az Elveszett Generáció hibátlanul metszett tükre. Ahol nem az, ott láttam a férfit: egy szeretettel teli, tehetséges, mégis kíméletlenül farokvezérelt egyedet. A biológia az biológia.",
+            "url": "https://moly.hu/ertekelesek/2067152",
+            "user": {
+                "id": 28042,
+                "login": "Biedermann_Izabella"
+            }
+        },
+        {
+            "id": 1104475,
+            "rating": 10,
+            "review": "\" _Ha ​szerencséd volt_\r\n_és ifjan Párizsban élhettél,_\r\n_bárhova vetődj életed során,_\r\n_Párizs veled marad mindig,_\r\n_mert Párizs vándorünnep_ \"\r\n\r\nRemek hangulathozó idézet ez a könyvhöz Hemingwaytől, mint egy hívogatón intő kéz.\r\nHemingway sílusa olyan nehezen megfogható, talán a kiegyensúlyozottság az, ami miatt szeretem őt olvasni, lelassul az idő tőle. \r\nCsak ez lehet, hiszen a könyv távoli: ismeretlen utcákkal, címekkel, éttermekkel és kávéházakkal, (többnyire) sosem hallott szereplőkkel, mégis... mégis ott lennék és ott vagyok, Párizsban, kilencven évvel ezelőtt. Míg a két világháború közti Budapest minden kávéháza egy még nem vagy már ismert magyar író-költő törzshelye volt, Párizs az egész világ művészeit olvasztotta (és olvasztja) magába, akik többnyire pénztelenek, mint annyi más ember a városban. Micsoda világ lehetett! Visszamennék, de csak benéznék, nem maradnék.\r\nA könyv éppen zsebnyi méretű, mert a kabátodba való, mondjuk tavasszal, ha Párizsban jársz. Színes cetlikkel lenne akkor tele, melyek párja a várostérképed egy-egy bejelölt pontja. Megállnál a bejelölt helyeken, amelyek vagy léteznek még vagy nem, elolvasnád azt a néhány bekezdést, a falnak dőlnél, fénykép készülne rólad. Kötött pulóver lenne rajtad, mert Hemingwayhez az illik. És esténként borral a kezedben készülnél a következő napra.",
+            "url": "https://moly.hu/ertekelesek/1104475",
+            "user": {
+                "id": 10212,
+                "login": "Tilla"
+            }
+        },
+        {
+            "id": 2158950,
+            "rating": 10,
+            "review": "Azóta ​lapult a polcomon, amióta az Angyalok városában Seth felolvasott belőle néhány sort Maggie-nek. Olyan gyönyörűen hangzott, olyan zamatosan, mégis, évek teltek el mire kézbe vettem a könyvet... mostanában 2 kihívásra is passzolt, gondoltam nosza, eljött az ő ideje.\r\n\"Az elveszett nemzedék\" bemutatása egy letűnt Párizs utcáin. Nekem tetszett, egyébként is gyengém ez a korszak - teli újfajta kíváncsisággal, izgalmas személyiségekkel.\r\nA lapokon megelevenednek a '20-as évek híres és kevésbé ismert írói, költői, képzőművészei és persze maga a város: Párizs. A kávézók, a lóversenypálya, a hotelek, a különböző utcák leírásai, mindez Göncz Árpád nagyszerű fordításában.\r\nNekem több olyan személyre is felhívta a figyelmemet, akiket eddig nem nagyon ismertem. \r\nA vége, a magánéleti zűrzavarok már kevésbé érdekeltek, de öszeségében nagyon élveztem, pl.: kifejezetten tetszett, hogy novellák jöttek egymás után és soha nem tudtam, hogy kinek a története következik. Volt benne izgalom :) \r\nÉrdekes volt Gertrude Stein-ről, Scott Fitzgerald-ról olvasni. \r\nSzokatlan volt, de nagyon jól esett :) Ajánlom.",
+            "url": "https://moly.hu/ertekelesek/2158950",
+            "user": {
+                "id": 88827,
+                "login": "shadowhunter1975"
+            }
+        },
+        {
+            "id": 8151433,
+            "rating": 10,
+            "review": "A ​memoárok alapvetően nem tartoznak a szívem csücskei közé és jellemzően nem veszek meg egy könyvet csak a szerzője miatt. A Vándorünnep lett most a kivétel - ha nem Hemingway, eszembe sem jut elolvasni. Pedig igazán kár lett volna érte, mert kimondottan érdekes volt. \r\nAz írásmód amolyan hemingway-es, szóval ilyen tekintetben hozta az elvárást. Maga a \"történet\", - vagy élettöredékek? nem is tudom, minek kellene igazán nevezni - kimondottan érdekes: nem csak a korabeli Párizs elevenedik meg a lapokon, hanem egy rakás híres művész is, akiket egész más egy kortárs szemén keresztül nézni, mint a wikipédián olvasni róluk ((bár sok esetben megtettem ez utóbbit a könyv olvasása közben, mert pl. Fitzgeraldról nem tudtam semmit azon kívül, hogy olvastam A nagy Gatsby-t)). \r\nNem a _hű, de izgalmas, letehetetlen_ kategória, de ez szerintem nem is szerepe. Érdekes korrajz, memoár vallomásokkal - egy kis betekintés a '20-as évek párizsi valóságába Hemingway szemén keresztül.",
+            "url": "https://moly.hu/ertekelesek/8151433",
+            "user": {
+                "id": 148986,
+                "login": "nope"
+            }
+        },
+        {
+            "id": 1967444,
+            "rating": 10,
+            "review": "Nekem ​kifejezetten tetszett ez a könyv. Egyrészt nagyon jó stílusú Hemingway, ~~ami mondjuk nem meglepetés~~ másrészt Göncz Árpád fordításai igen finomak. \r\n\r\nMaga a cselekmény nem annyira extra, hiszen hétköznapi életről szól, de ez természetes. \r\n\r\nNagyon szeretem a könyvből áradó párizsi hangulatot, a füstös kávézókat, a borokat, az embereket. Csodálatos karakter rajzokat ad Hem Gertrude Steinről, Ezra Poundról, Ford Madox Fordról, és szerintem e tekintetben Scott Fitzgerald portréja a legjobb. Ez fakadhat abból is, hogy leghosszabban a köztük lévő barátságot taglalja a könyvben, de szerintem inkább azért, mert talán végül ő lett a legjobb barátja az évek folyamán. \r\nMindenesetre nagyon érdekes volt olvasni ekkora nevekről, és hétköznapi életükről. Tudni azt, hogy Hemingway utálta a keresztnevét, ezért inkább Hemnek szólította mindenki.\r\n\r\nFogok még tőle olvasni, ebben biztos vagyok, és felnőtt fejjel is meg lesz _Az öreg halász és a tenger_.",
+            "url": "https://moly.hu/ertekelesek/1967444",
+            "user": {
+                "id": 143253,
+                "login": "Trixi_Adzoa"
+            }
+        },
+        {
+            "id": 7562755,
+            "rating": 10,
+            "review": "Azt ​mondják, aki nem kedveli Hemingway-t, az olvassa a Vándorünnepet. Igazuk lehet, mert én nem tudtam a szívembe zárni Hemingway ízlésemnek időnként nyers és macho-beütésű mondatait eddig olvasott regényeiben. Tévedés ne essék, a Vándorünnepben is meg fogja mustrálni a szép nőket, de valahogy ez most így rendben volt, mert a párizsi 20-as évek szellemi forgatagában ez csak egy szemvillanás. Hisz van ott egy nagylelkű Ezra Pound, egy pszichotikus Fitzgerald és egy különc Gertrude Stein, csak hogy azokat említsem, akiknek a neve mond is valamit. A róluk megfestett sziporkázó képek és jelenetek a könyv csúcspontjai, ahogy a finom ételek és a nagy kirándulások megfestése is szívmelengető.",
+            "url": "https://moly.hu/ertekelesek/7562755",
+            "user": {
+                "id": 732,
+                "login": "Daniella78"
+            }
+        },
+        {
+            "id": 8138162,
+            "rating": 10,
+            "review": "Párizsi ​élet, élmények, élvezetek, tapasztalatok, emberi történetek - ahogy Hemingway elénk tárja. Érezni a kávézok, parkok az utcák bukéját; nézetek talákozását/ütközését. \r\nAzt hiszem, új kedvenccel bővült a lista...",
+            "url": "https://moly.hu/ertekelesek/8138162",
+            "user": {
+                "id": 89636,
+                "login": "SDániel"
+            }
+        },
+        {
+            "id": 6487319,
+            "rating": 10,
+            "review": "Első ​olyan olvasásom volt ez Hemingway-től, ami nem regény vagy kisregény, hanem gyakorlatilag egy novellafüzér. Az író ifjúkorának Párizsát tárja a szemünk elé hihetetlenül életszagúan, minden szépségével és nehézségével együtt, különös pikantériát pedig az ad az írásoknak, hogy bemutatja a kor nagyjait hétköznapi helyzetekben, így megjelenik többek között Gertrude Stein, Ezra Pound, Scott és Zelda Fitzgerald is. \r\nSzavakkal vissza nem adható az a hangulat, ami az írásokból érződik: Párizs utcáinak, kávéházainak, bárjainak, a Szajna menti partszakaszainak lüktetése, a mára halhatatlanná vált személyek apró-cseprő viselt dolgainak kendőzetlen felfedése, Hemingway és első feleségének, Hadley-nek kapcsolata, illetve fel-felbukkan egy-egy jelenetben a fiúk, Bumby is.\r\nHemingway írással való viszonya és ezzel kapcsolatos szokásai is megjelennek több részletben, szerintem rengeteget lehet belőle tanulni, szívesen a kezébe adnám kezdő - de akár már gyakorlott - íróknak is, fontolják meg Hemingway \"tanácsait\".\r\nIgyekeztem beosztani az olvasást, hogy sokáig tartson ez a hangulat, de hát egyszer vége lett... mindenesetre folytatom az életművet és szívből ajánlom, Párizs iránt érdeklődőknek is!",
+            "url": "https://moly.hu/ertekelesek/6487319",
+            "user": {
+                "id": 426291,
+                "login": "Luri"
+            }
+        }
+    ]
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5578f9811b42f210d360eb52b24bcbcb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>d178f9811b42f210d360eb52b24bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"reviews","children":[{"name":"reviews_object","children":[{"name":"id","children":[],"type":"string","jpath":"$.reviews[*].id","previewValue":"3295378"},{"name":"rating","children":[],"type":"string","jpath":"$.reviews[*].rating","previewValue":"10"},{"name":"review","children":[],"type":"string","jpath":"$.reviews[*].review","previewValue":"Már ​az első történettel megragadott ez az alig 200 oldalas novelláskötet. Azért is élmény volt olvasni ezeket az novellákat, hiszen a szerző itt még kezdő, szárnypróbálgató író boldog éveit idézi meg. A Vándorünnep az író posztumusz kötete, három évvel Hemingway halála után, 1964-ben jelent meg. \r\nhttps://gaboolvas.blogspot.com/2023/07/vandorunnep.html"},{"name":"url","children":[],"type":"string","jpath":"$.reviews[*].url","previewValue":"https://moly.hu/ertekelesek/3295378"},{"name":"user","children":[{"name":"id","children":[],"type":"string","jpath":"$.reviews[*].user.id","previewValue":"21938"},{"name":"login","children":[],"type":"string","jpath":"$.reviews[*].user.login","previewValue":"robinson"}],"type":"object","jpath":"$.reviews[*].user","previewValue":""}],"type":"object","jpath":"$.reviews[*]","previewValue":""}],"type":"array.object","jpath":"$.reviews[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5578f9811b42f210d360eb52b24bcbcb^id=5578f9811b42f210d360eb52b24bcbcb"/>
+    <sys_element_mapping action="delete_multiple" query="id=5578f9811b42f210d360eb52b24bcbcb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>5578f9811b42f210d360eb52b24bcbcb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>1178f9811b42f210d360eb52b24bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>5578f9811b42f210d360eb52b24bcbcb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>d978f9811b42f210d360eb52b24bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[04554969-3191-4485-9452-053012169401].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>5578f9811b42f210d360eb52b24bcbcb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>9578f9811b42f210d360eb52b24bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5578f9811b42f210d360eb52b24bcbcb"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5578f9811b42f210d360eb52b24bcbcb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5578f9811b42f210d360eb52b24bcbcb^sys_idNOT IN9578f9811b42f210d360eb52b24bcbd2"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1578f981d442f2109bcf6f5da3d971d1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5e08284d1b46b210d360eb52b24bcb34</scope_name>
+        <serialized_content>{"FlowDesigner:FD1578f981d442f2109bcf6f5da3d971d1":{"reviews":[{"$1_reviews":{"review":"String","review.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"review\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"582ef353-706d-4a34-af7d-fc79e0c1c7f5\"}"},"rating":"String","rating.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"rating\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"fcb3ac49-d4f9-406e-9279-627f67f278f6\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"98fffa44-5c55-485b-b3e8-1a9e2d097b91\"}"},"user":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"adb72223-fda5-4850-8110-cb460e601d48\"}"},"login":"String","login.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"login\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2956a875-4f79-4bb0-a467-99e847168b9c\"}"}},"user.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"7aa2f632-c762-4b0c-b6e8-c0f043e79c9e\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"url\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"14ad54f0-1b3a-44c5-829f-6c88c38d7437\"}"}}}],"reviews.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"reviews\",\"mandatory\":\"false\",\"child_name\":\"reviews_object\",\"uiUniqueId\":\"e17e0c29-ec3f-4faa-9ab4-39f77881d625\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"reviews_object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"965a8817-6051-4450-93c1-d8fa034936e1\"}"}},"FlowDesigner:FD1578f981d442f2109bcf6f5da3d971d1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"20fb651a-a4d8-43f7-b9dc-eafdd6c3b445\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1578f981d442f2109bcf6f5da3d971d1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1978f9811b42f210d360eb52b24bcbd1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:14</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD1578f981d442f2109bcf6f5da3d971d1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=20fb651a-a4d8-43f7-b9dc-eafdd6c3b445</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">5578f9811b42f210d360eb52b24bcbcb</model>
+        <model_id>5578f9811b42f210d360eb52b24bcbcb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5578f9811b42f210d360eb52b24bcbcb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>9578f9811b42f210d360eb52b24bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5578f9811b42f210d360eb52b24bcbcb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5578f9811b42f210d360eb52b24bcbcb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:26:56</sys_created_on>
+        <sys_id>d978f9811b42f210d360eb52b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:26:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ratings">ca929d0d4742b210eec61525f16d4378</action>
+        <cid>04554969-3191-4485-9452-053012169401</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>OpenAPI/Postman</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="OpenAPI/Postman">41ba6b7cc3a02110e6a899ccc840ddaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>ca929d0d4742b210eec61525f16d4381</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca929d0d4742b210eec61525f16d4381"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>02929d0d4742b210eec61525f16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <value>c6cbacc91b46b210d360eb52b24bcb09</value>
+        <variable display_value="Connection Alias">7a5277f4c3e02110e6a899ccc840dd95</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>3ce7d9891b0eb210d360eb52b24bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <value>https://moly.hu/api</value>
+        <variable display_value="Base URL">179fa374c3e02110e6a899ccc840dd66</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>46929d0d4742b210eec61525f16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">5e433ff4c3e02110e6a899ccc840dd2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>70e7d9891b0eb210d360eb52b24bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <value>{"resource_path":"book_reviews/{bookid}.json","body":"","query_params":{},"headers":{}}</value>
+        <variable display_value="OpenAPI Mappings">ccfb3b30c3242110e6a899ccc840dde5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>86929d0d4742b210eec61525f16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <value>307251c91bcab210d360eb52b24bcb58</value>
+        <variable display_value="API Source">c1fee734c3e02110e6a899ccc840dde9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>8a929d0d4742b210eec61525f16d43b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">156c7f30c3242110e6a899ccc840dd93</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>ca929d0d4742b210eec61525f16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <value>7472150d1bcab210d360eb52b24bcb54</value>
+        <variable display_value="API Operation">d6ade3b0c3e02110e6a899ccc840dde6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca929d0d4742b210eec61525f16d4381</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>ce929d0d4742b210eec61525f16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <value>postman_collection</value>
+        <variable display_value="Creation Source">66e84c6e9fb30210ca19fd8e0b0a1cee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ca929d0d4742b210eec61525f16d4381^id=ca929d0d4742b210eec61525f16d4381"/>
+    <sys_element_mapping action="delete_multiple" query="id=ca929d0d4742b210eec61525f16d4381"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>c2929d0d4742b210eec61525f16d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>8e929d0d4742b210eec61525f16d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>b8e7d9891b0eb210d360eb52b24bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>ce929d0d4742b210eec61525f16d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>creation_source</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>c2929d0d4742b210eec61525f16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>4a929d0d4742b210eec61525f16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>openapi_mappings</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>fce7d9891b0eb210d360eb52b24bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>8e929d0d4742b210eec61525f16d43b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>{"type":"ADV_NV","value":[{"name":"key","value":"{{step[04554969-3191-4485-9452-053012169401].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:30</sys_created_on>
+        <sys_id>06929d0d4742b210eec61525f16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>book_reviews/{{action.bookid}}.json</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>ca929d0d4742b210eec61525f16d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>78e7d9891b0eb210d360eb52b24bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>{"bookid":{"name":"bookid","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"bookId0777832685","type":"string"},"label":"bookId","value":"{{action.bookid}}","referredIn":"resource_path"}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca929d0d4742b210eec61525f16d4381"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ca929d0d4742b210eec61525f16d4381"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ca929d0d4742b210eec61525f16d4381^sys_idNOT IN70e7d9891b0eb210d360eb52b24bcb13"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=fe7b9ce7-5378-41fa-873d-bde485ef5651</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="OpenAPI/Postman">ca929d0d4742b210eec61525f16d4381</model>
+        <model_id>ca929d0d4742b210eec61525f16d4381</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ca929d0d4742b210eec61525f16d4381</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>70e7d9891b0eb210d360eb52b24bcb13</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:05:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ca929d0d4742b210eec61525f16d4381"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ca929d0d4742b210eec61525f16d4381</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:37</sys_created_on>
+        <sys_id>f0e7d9891b0eb210d360eb52b24bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ca929d0d4742b210eec61525f16d4378^sys_idNOT INac2815c91b0eb210d360eb52b24bcb12"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d83a2a1f-f3b7-4e91-88e8-2be1b2a33f0d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bookid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>bookId</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Ratings">ca929d0d4742b210eec61525f16d4378</model>
+        <model_id>ca929d0d4742b210eec61525f16d4378</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ca929d0d4742b210eec61525f16d4378</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:05:42</sys_created_on>
+        <sys_id>ac2815c91b0eb210d360eb52b24bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:05:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ac2815c91b0eb210d360eb52b24bcb12"/>
+    <sys_hub_action_output action="delete_multiple" query="model=ca929d0d4742b210eec61525f16d4378^sys_idNOT IN6e581dc91b0eb210d360eb52b24bcbe8,7f8831c11b42f210d360eb52b24bcb71,f0e7d9891b0eb210d360eb52b24bcb31,f8e7d9891b0eb210d360eb52b24bcb38"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bd9f4e91-ea7a-4dee-89da-bc3e97879314</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reviews_json</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_41ba6b7cc3a02110e6a899ccc840ddaa">644848c9c3242110e6a899ccc840dd30</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Reviews JSON</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Ratings">ca929d0d4742b210eec61525f16d4378</model>
+        <model_id>ca929d0d4742b210eec61525f16d4378</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:39</sys_created_on>
+        <sys_id>6e581dc91b0eb210d360eb52b24bcbe8</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6e581dc91b0eb210d360eb52b24bcbe8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e581dc91b0eb210d360eb52b24bcbe8"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD778831c13a42f210f05feed26adcaf6b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5e08284d1b46b210d360eb52b24bcb34</scope_name>
+        <serialized_content>{"FlowDesigner:FD778831c13a42f210f05feed26adcaf6b":{"$COCollectionField":[{"reviews_object":{"review":"String","review.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"review\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"582ef353-706d-4a34-af7d-fc79e0c1c7f5\"}"},"rating":"String","rating.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"rating\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"fcb3ac49-d4f9-406e-9279-627f67f278f6\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"98fffa44-5c55-485b-b3e8-1a9e2d097b91\"}"},"user":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"adb72223-fda5-4850-8110-cb460e601d48\"}"},"login":"String","login.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"login\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2956a875-4f79-4bb0-a467-99e847168b9c\"}"}},"user.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"7aa2f632-c762-4b0c-b6e8-c0f043e79c9e\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"url\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"14ad54f0-1b3a-44c5-829f-6c88c38d7437\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"845d9637-5f14-4817-a027-35fbed041679\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Reviews\",\"mandatory\":\"false\",\"child_name\":\"reviews_object\",\"uiUniqueId\":\"7d623e4b-6b88-4813-a71f-98a6a96fea90\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD778831c13a42f210f05feed26adcaf6b\",\"child_label\":\"reviews_object\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"0e04ffca-7762-4f3d-b3b7-1cf6a0693d6c\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"965a8817-6051-4450-93c1-d8fa034936e1\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD778831c13a42f210f05feed26adcaf6b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"845d9637-5f14-4817-a027-35fbed041679\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Reviews\",\"mandatory\":\"false\",\"child_name\":\"reviews_object\",\"uiUniqueId\":\"7d623e4b-6b88-4813-a71f-98a6a96fea90\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD778831c13a42f210f05feed26adcaf6b\",\"child_label\":\"reviews_object\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"0e04ffca-7762-4f3d-b3b7-1cf6a0693d6c\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"965a8817-6051-4450-93c1-d8fa034936e1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:27:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b8831c11b42f210d360eb52b24bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:14</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=reviews_object,child_name=reviews_object,child_type=object,child_type_label=Object,child_uiUniqueId=965a8817-6051-4450-93c1-d8fa034936e1,co_type_name=FD778831c13a42f210f05feed26adcaf6b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=845d9637-5f14-4817-a027-35fbed041679,sourceType=step,sourceUiUniqueId=0e04ffca-7762-4f3d-b3b7-1cf6a0693d6c,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=7d623e4b-6b88-4813-a71f-98a6a96fea90</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reviews</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Reviews</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Ratings">ca929d0d4742b210eec61525f16d4378</model>
+        <model_id>ca929d0d4742b210eec61525f16d4378</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:27:22</sys_created_on>
+        <sys_id>7f8831c11b42f210d360eb52b24bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:27:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f8831c11b42f210d360eb52b24bcb71"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f8831c11b42f210d360eb52b24bcb71"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7105ea82-cc5d-4280-b770-28c8c051fd44</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Ratings">ca929d0d4742b210eec61525f16d4378</model>
+        <model_id>ca929d0d4742b210eec61525f16d4378</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>f0e7d9891b0eb210d360eb52b24bcb31</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:27:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f0e7d9891b0eb210d360eb52b24bcb31"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f0e7d9891b0eb210d360eb52b24bcb31"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=049e7c2b-aacb-4594-8a8b-a427b0c3d8ee,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Ratings">ca929d0d4742b210eec61525f16d4378</model>
+        <model_id>ca929d0d4742b210eec61525f16d4378</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>f8e7d9891b0eb210d360eb52b24bcb38</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f8e7d9891b0eb210d360eb52b24bcb38"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8e7d9891b0eb210d360eb52b24bcb38"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ca929d0d4742b210eec61525f16d4378"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ca929d0d4742b210eec61525f16d4378^sys_idNOT INd292dd0d4742b210eec61525f16d4332"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Ratings">ca929d0d4742b210eec61525f16d4378</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:31</sys_created_on>
+        <sys_id>d292dd0d4742b210eec61525f16d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:31</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d292dd0d4742b210eec61525f16d4332^sys_idNOT IN9a92dd0d4742b210eec61525f16d4332"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 24/12/2025 12:41:31">d292dd0d4742b210eec61525f16d4332</action_status_metadata_id>
+        <condition>{{step[04554969-3191-4485-9452-053012169401].error_code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>OpenAPI step execution has failed</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[04554969-3191-4485-9452-053012169401].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:31</sys_created_on>
+        <sys_id>9a92dd0d4742b210eec61525f16d4332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>bookid</element>
+        <help/>
+        <hint>Moly.hu Book ID</hint>
+        <label>bookId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ca929d0d4742b210eec61525f16d4378</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:05:42</sys_created_on>
+        <sys_id>ac2815c91b0eb210d360eb52b24bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:05:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ca929d0d4742b210eec61525f16d4378"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reviews</element>
+        <help/>
+        <hint/>
+        <label>Reviews</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:27:22</sys_created_on>
+        <sys_id>338831c11b42f210d360eb52b24bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:27:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>cde7d9891b0eb210d360eb52b24bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reviews_json</element>
+        <help/>
+        <hint/>
+        <label>Reviews JSON</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:39</sys_created_on>
+        <sys_id>ee581dc91b0eb210d360eb52b24bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:04:38</sys_created_on>
+        <sys_id>f4e7d9891b0eb210d360eb52b24bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:04:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_ca929d0d4742b210eec61525f16d4378"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=ca929d0d4742b210eec61525f16d4378^sys_idNOT INb692114d4742b210eec61525f16d43ab"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Ratings">ca929d0d4742b210eec61525f16d4378</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b692114d4742b210eec61525f16d43ab","name":"plan","plan_signature":null}}</plan>
+        <snapshot>e5c8f9c11b42f210d360eb52b24bcb3a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b692114d4742b210eec61525f16d43ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:21</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>ratings</internal_name>
+        <label_cache>[{"name":"{{action.bookid}}","label":"action➛bookId","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d83a2a1f-f3b7-4e91-88e8-2be1b2a33f0d"}},{"name":"{{step[04554969-3191-4485-9452-053012169401].error_code}}","label":"step➛OpenAPI/Postman➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[04554969-3191-4485-9452-053012169401].error_message}}","label":"step➛OpenAPI/Postman➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":null},{"name":"{{step[04554969-3191-4485-9452-053012169401].sn_auth_token}}","label":"step➛OpenAPI/Postman➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[04554969-3191-4485-9452-053012169401].response_body}}","label":"step➛OpenAPI/Postman➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[845d9637-5f14-4817-a027-35fbed041679].root.reviews}}","label":"step➛JSON Parser step➛root➛reviews","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Ratings</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Ratings">ca929d0d4742b210eec61525f16d4378</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1692dd0d4742b210eec61525f16d4386</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1692dd0d4742b210eec61525f16d4386"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1692dd0d4742b210eec61525f16d4386"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1692dd0d4742b210eec61525f16d4386</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:50</sys_created_on>
+        <sys_id>0168110d1b0eb210d360eb52b24bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:50</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">2a92114d4742b210eec61525f16d4307</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1692dd0d4742b210eec61525f16d4386</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>aa92114d4742b210eec61525f16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">2692114d4742b210eec61525f16d430e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1692dd0d4742b210eec61525f16d4386"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reviews</field>
+        <id>1692dd0d4742b210eec61525f16d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:19</sys_created_on>
+        <sys_id>25c8f9c11b42f210d360eb52b24bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</table>
+        <value>{{step[845d9637-5f14-4817-a027-35fbed041679].root.reviews}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reviews_json</field>
+        <id>1692dd0d4742b210eec61525f16d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:50</sys_created_on>
+        <sys_id>0968110d1b0eb210d360eb52b24bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</table>
+        <value>{{step[04554969-3191-4485-9452-053012169401].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>1692dd0d4742b210eec61525f16d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:50</sys_created_on>
+        <sys_id>4d68110d1b0eb210d360eb52b24bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>1692dd0d4742b210eec61525f16d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>e692114d4742b210eec61525f16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=1692dd0d4742b210eec61525f16d4386^sys_idNOT IN2292dd0d4742b210eec61525f16d43cb,99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ratings">1692dd0d4742b210eec61525f16d4386</action>
+        <cid>04554969-3191-4485-9452-053012169401</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>OpenAPI/Postman</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="OpenAPI/Postman">41ba6b7cc3a02110e6a899ccc840ddaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>2292dd0d4742b210eec61525f16d43cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2292dd0d4742b210eec61525f16d43cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>2a92dd0d4742b210eec61525f16d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <value>c6cbacc91b46b210d360eb52b24bcb09</value>
+        <variable display_value="Connection Alias">7a5277f4c3e02110e6a899ccc840dd95</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>6e92dd0d4742b210eec61525f16d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">5e433ff4c3e02110e6a899ccc840dd2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>7468110d1b0eb210d360eb52b24bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <value>https://moly.hu/api</value>
+        <variable display_value="Base URL">179fa374c3e02110e6a899ccc840dd66</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>a292dd0d4742b210eec61525f16d43f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">156c7f30c3242110e6a899ccc840dd93</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>ae92dd0d4742b210eec61525f16d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <value>307251c91bcab210d360eb52b24bcb58</value>
+        <variable display_value="API Source">c1fee734c3e02110e6a899ccc840dde9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>b868110d1b0eb210d360eb52b24bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <value>{"resource_path":"book_reviews/{bookid}.json","body":"","query_params":{},"headers":{}}</value>
+        <variable display_value="OpenAPI Mappings">ccfb3b30c3242110e6a899ccc840dde5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>16</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>e292dd0d4742b210eec61525f16d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <value>7472150d1bcab210d360eb52b24bcb54</value>
+        <variable display_value="API Operation">d6ade3b0c3e02110e6a899ccc840dde6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2292dd0d4742b210eec61525f16d43cb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>e692dd0d4742b210eec61525f16d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <value>postman_collection</value>
+        <variable display_value="Creation Source">66e84c6e9fb30210ca19fd8e0b0a1cee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2292dd0d4742b210eec61525f16d43cb^id=2292dd0d4742b210eec61525f16d43cb"/>
+    <sys_element_mapping action="delete_multiple" query="id=2292dd0d4742b210eec61525f16d43cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_operation</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>a292dd0d4742b210eec61525f16d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_source</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>6e92dd0d4742b210eec61525f16d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>f068110d1b0eb210d360eb52b24bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>e692dd0d4742b210eec61525f16d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>creation_source</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>ea92dd0d4742b210eec61525f16d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>6292dd0d4742b210eec61525f16d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>openapi_mappings</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>3868110d1b0eb210d360eb52b24bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>a692dd0d4742b210eec61525f16d43f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>{"type":"ADV_NV","value":[{"name":"key","value":"{{step[04554969-3191-4485-9452-053012169401].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>2e92dd0d4742b210eec61525f16d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>book_reviews/{{action.bookid}}.json</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_metadata</field>
+        <id>2292dd0d4742b210eec61525f16d43cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>b068110d1b0eb210d360eb52b24bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_41ba6b7cc3a02110e6a899ccc840ddaa</table>
+        <value>{"bookid":{"name":"bookid","allowEmptyValue":false,"allowReserved":false,"explode":false,"required":true,"style":"simple","schema":{"glideType":"string","deprecated":false,"name":"bookId0777832685","type":"string"},"label":"bookId","value":"{{action.bookid}}","referredIn":"resource_path"}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=2292dd0d4742b210eec61525f16d43cb"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2292dd0d4742b210eec61525f16d43cb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2292dd0d4742b210eec61525f16d43cb^sys_idNOT IN7868ddc91b0eb210d360eb52b24bcbe4"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=fe7b9ce7-5378-41fa-873d-bde485ef5651</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="OpenAPI/Postman">2292dd0d4742b210eec61525f16d43cb</model>
+        <model_id>2292dd0d4742b210eec61525f16d43cb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2292dd0d4742b210eec61525f16d43cb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:48</sys_created_on>
+        <sys_id>7868ddc91b0eb210d360eb52b24bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2292dd0d4742b210eec61525f16d43cb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_2292dd0d4742b210eec61525f16d43cb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>f468ddc91b0eb210d360eb52b24bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Ratings">1692dd0d4742b210eec61525f16d4386</action>
+        <cid>845d9637-5f14-4817-a027-35fbed041679</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:17</sys_created_on>
+        <sys_id>99c8b9c11b42f210d360eb52b24bcbea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>99c8b9c11b42f210d360eb52b24bcbea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>59c8b9c11b42f210d360eb52b24bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"reviews","children":[{"name":"reviews_object","children":[{"name":"id","children":[],"type":"string","jpath":"$.reviews[*].id","previewValue":"3295378"},{"name":"rating","children":[],"type":"string","jpath":"$.reviews[*].rating","previewValue":"10"},{"name":"review","children":[],"type":"string","jpath":"$.reviews[*].review","previewValue":"Már ​az első történettel megragadott ez az alig 200 oldalas novelláskötet. Azért is élmény volt olvasni ezeket az novellákat, hiszen a szerző itt még kezdő, szárnypróbálgató író boldog éveit idézi meg. A Vándorünnep az író posztumusz kötete, három évvel Hemingway halála után, 1964-ben jelent meg. \r\nhttps://gaboolvas.blogspot.com/2023/07/vandorunnep.html"},{"name":"url","children":[],"type":"string","jpath":"$.reviews[*].url","previewValue":"https://moly.hu/ertekelesek/3295378"},{"name":"user","children":[{"name":"id","children":[],"type":"string","jpath":"$.reviews[*].user.id","previewValue":"21938"},{"name":"login","children":[],"type":"string","jpath":"$.reviews[*].user.login","previewValue":"robinson"}],"type":"object","jpath":"$.reviews[*].user","previewValue":""}],"type":"object","jpath":"$.reviews[*]","previewValue":""}],"type":"array.object","jpath":"$.reviews[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>99c8b9c11b42f210d360eb52b24bcbea</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>9dc8b9c11b42f210d360eb52b24bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <value>{
+    "reviews": [
+        {
+            "id": 3295378,
+            "rating": 10,
+            "review": "Már ​az első történettel megragadott ez az alig 200 oldalas novelláskötet. Azért is élmény volt olvasni ezeket az novellákat, hiszen a szerző itt még kezdő, szárnypróbálgató író boldog éveit idézi meg. A Vándorünnep az író posztumusz kötete, három évvel Hemingway halála után, 1964-ben jelent meg. \r\nhttps://gaboolvas.blogspot.com/2023/07/vandorunnep.html",
+            "url": "https://moly.hu/ertekelesek/3295378",
+            "user": {
+                "id": 21938,
+                "login": "robinson"
+            }
+        },
+        {
+            "id": 6512414,
+            "rating": 10,
+            "review": "_„- ​Hem, túl keményen írsz, túl meztelenül, túl soványan, túl rágósan._\r\n_Némi bűntudattal megtapogattam a zsebemben a nyúllábat._\r\n_– Majd megpróbálom egy kicsit felhízlalni._\r\n_– Persze, azt nem szeretném, ha elhájasodna.”_\r\n\r\nHemingway prózája nem hájasodott el soha. Pont ezt a pőreséget szeretem benne, ezt a líra nélküli abszolút mélységet. Rövid, koppanós mondatai belőlem minduntalan gazdag érzelmeket váltanak ki.\r\n\r\nA Vándorünnep című kötetét különösen szeretem, mert portrét rajzol benne önmagáról: a fiatal, kezdő íróról, aki az élet örömeinek él, házassága boldog, és a szegénységben is megtalálja a szépséget. Egyszerűsége egészen kimagasló, aszkétizmusa néhol már-már fájdalmas. Kevéssel is beéri, mégis hajtja az a fáradhatatlan belső motor: az ambíció. Következetesen ír, kitartóan, a munkájában lenyűgöző állhatatosságot mutat.\r\n\r\nA személye nem olyan rejtélyes, mint azt képzelnénk. A legelemibb szinten szemléli az őt körülvevő világot, ám mégis a mélyére lát mindennek, éles tekintete lecsap a legapróbb dolgokra. Férfias szűkszavúsága mögött tapintat fészkel, keveset mond, de annál többet érzékeltet.\r\n\r\nA megszépülő emlékek gyöngyfüzére ez a novellacsokor. Párizs varázsa, a művészek sokoldalú, színes társasága elevenedik meg előttünk általa. Dohos őszi utcák, sikátorokban megbújó, túlzsúfolt antikváriumok, dohányfüstös éttermek és kocsmák képe rémlik fel belőle. Hangulatok, törések és kudarcok, apró győzelmek, egy félresikerült vonatozás, lépcsőn tornyosuló szigorú házinénik, engedékeny feleségek, szenvedő írók, és furcsábbnál is furcsább barátok. Lehengerlően egyedi, és bámulatosan finom próza ez. Múltidézés, vallomás is egyben.\r\n\r\n_„Jól és olcsón étkeztünk, jót és olcsón ittunk, jól és összebújva, melegen aludtunk, és szerettük egymást.”_ – foglalja össze Hemingway pár szóban a Párizsban töltött fiatal éveinek minden csodáját és lényegét. Ez a gondolatesszencia hatja át az egész kötetet. Ebből táplálkozik, és mondhatni, ezen hízik meg. Szerintem ez művészet, de ki vagyok én, hogy ezt megítéljem?\r\n\r\nAz eredeti bejegyzés az alábbi linken található:\r\nhttps://tisztalappalavilagban.blogspot.com/2023/07/ernest-hemingway-vandorunnep-parizs-orok.html",
+            "url": "https://moly.hu/ertekelesek/6512414",
+            "user": {
+                "id": 128890,
+                "login": "Kabódi_Ella"
+            }
+        },
+        {
+            "id": 2067152,
+            "rating": 10,
+            "review": "Felnőtt ​tartalom!\r\nNagyon kedves könyv lett, bár az első fejezet után ebben még nem voltam biztos. \r\nAz a fajta írás, ami a kedvencem: nyugodt, végiggondolt, feltűnési vágytól mentes. Mondhatnám, hogy őszinte, de ennek aligha van jelentősége, inkább azt mondom önmagához hű. \r\nEz a fajta a tiszta hűség a legkiválóbb írók kiváltsága. és ezt most úgy mondom, hogy ebben a pillanatban azt gondolom, legfeljebb tisztelem, de nem kedvelem Hemingwayt. A könyv mégis jó. Nyilván itt kezdődik az, amit én nagyra tartok egy szerzőben. \r\nVisszaemlékezés amúgy, ha tetszik kíméletlen, ha nem tetszik, akkor az Elveszett Generáció hibátlanul metszett tükre. Ahol nem az, ott láttam a férfit: egy szeretettel teli, tehetséges, mégis kíméletlenül farokvezérelt egyedet. A biológia az biológia.",
+            "url": "https://moly.hu/ertekelesek/2067152",
+            "user": {
+                "id": 28042,
+                "login": "Biedermann_Izabella"
+            }
+        },
+        {
+            "id": 1104475,
+            "rating": 10,
+            "review": "\" _Ha ​szerencséd volt_\r\n_és ifjan Párizsban élhettél,_\r\n_bárhova vetődj életed során,_\r\n_Párizs veled marad mindig,_\r\n_mert Párizs vándorünnep_ \"\r\n\r\nRemek hangulathozó idézet ez a könyvhöz Hemingwaytől, mint egy hívogatón intő kéz.\r\nHemingway sílusa olyan nehezen megfogható, talán a kiegyensúlyozottság az, ami miatt szeretem őt olvasni, lelassul az idő tőle. \r\nCsak ez lehet, hiszen a könyv távoli: ismeretlen utcákkal, címekkel, éttermekkel és kávéházakkal, (többnyire) sosem hallott szereplőkkel, mégis... mégis ott lennék és ott vagyok, Párizsban, kilencven évvel ezelőtt. Míg a két világháború közti Budapest minden kávéháza egy még nem vagy már ismert magyar író-költő törzshelye volt, Párizs az egész világ művészeit olvasztotta (és olvasztja) magába, akik többnyire pénztelenek, mint annyi más ember a városban. Micsoda világ lehetett! Visszamennék, de csak benéznék, nem maradnék.\r\nA könyv éppen zsebnyi méretű, mert a kabátodba való, mondjuk tavasszal, ha Párizsban jársz. Színes cetlikkel lenne akkor tele, melyek párja a várostérképed egy-egy bejelölt pontja. Megállnál a bejelölt helyeken, amelyek vagy léteznek még vagy nem, elolvasnád azt a néhány bekezdést, a falnak dőlnél, fénykép készülne rólad. Kötött pulóver lenne rajtad, mert Hemingwayhez az illik. És esténként borral a kezedben készülnél a következő napra.",
+            "url": "https://moly.hu/ertekelesek/1104475",
+            "user": {
+                "id": 10212,
+                "login": "Tilla"
+            }
+        },
+        {
+            "id": 2158950,
+            "rating": 10,
+            "review": "Azóta ​lapult a polcomon, amióta az Angyalok városában Seth felolvasott belőle néhány sort Maggie-nek. Olyan gyönyörűen hangzott, olyan zamatosan, mégis, évek teltek el mire kézbe vettem a könyvet... mostanában 2 kihívásra is passzolt, gondoltam nosza, eljött az ő ideje.\r\n\"Az elveszett nemzedék\" bemutatása egy letűnt Párizs utcáin. Nekem tetszett, egyébként is gyengém ez a korszak - teli újfajta kíváncsisággal, izgalmas személyiségekkel.\r\nA lapokon megelevenednek a '20-as évek híres és kevésbé ismert írói, költői, képzőművészei és persze maga a város: Párizs. A kávézók, a lóversenypálya, a hotelek, a különböző utcák leírásai, mindez Göncz Árpád nagyszerű fordításában.\r\nNekem több olyan személyre is felhívta a figyelmemet, akiket eddig nem nagyon ismertem. \r\nA vége, a magánéleti zűrzavarok már kevésbé érdekeltek, de öszeségében nagyon élveztem, pl.: kifejezetten tetszett, hogy novellák jöttek egymás után és soha nem tudtam, hogy kinek a története következik. Volt benne izgalom :) \r\nÉrdekes volt Gertrude Stein-ről, Scott Fitzgerald-ról olvasni. \r\nSzokatlan volt, de nagyon jól esett :) Ajánlom.",
+            "url": "https://moly.hu/ertekelesek/2158950",
+            "user": {
+                "id": 88827,
+                "login": "shadowhunter1975"
+            }
+        },
+        {
+            "id": 8151433,
+            "rating": 10,
+            "review": "A ​memoárok alapvetően nem tartoznak a szívem csücskei közé és jellemzően nem veszek meg egy könyvet csak a szerzője miatt. A Vándorünnep lett most a kivétel - ha nem Hemingway, eszembe sem jut elolvasni. Pedig igazán kár lett volna érte, mert kimondottan érdekes volt. \r\nAz írásmód amolyan hemingway-es, szóval ilyen tekintetben hozta az elvárást. Maga a \"történet\", - vagy élettöredékek? nem is tudom, minek kellene igazán nevezni - kimondottan érdekes: nem csak a korabeli Párizs elevenedik meg a lapokon, hanem egy rakás híres művész is, akiket egész más egy kortárs szemén keresztül nézni, mint a wikipédián olvasni róluk ((bár sok esetben megtettem ez utóbbit a könyv olvasása közben, mert pl. Fitzgeraldról nem tudtam semmit azon kívül, hogy olvastam A nagy Gatsby-t)). \r\nNem a _hű, de izgalmas, letehetetlen_ kategória, de ez szerintem nem is szerepe. Érdekes korrajz, memoár vallomásokkal - egy kis betekintés a '20-as évek párizsi valóságába Hemingway szemén keresztül.",
+            "url": "https://moly.hu/ertekelesek/8151433",
+            "user": {
+                "id": 148986,
+                "login": "nope"
+            }
+        },
+        {
+            "id": 1967444,
+            "rating": 10,
+            "review": "Nekem ​kifejezetten tetszett ez a könyv. Egyrészt nagyon jó stílusú Hemingway, ~~ami mondjuk nem meglepetés~~ másrészt Göncz Árpád fordításai igen finomak. \r\n\r\nMaga a cselekmény nem annyira extra, hiszen hétköznapi életről szól, de ez természetes. \r\n\r\nNagyon szeretem a könyvből áradó párizsi hangulatot, a füstös kávézókat, a borokat, az embereket. Csodálatos karakter rajzokat ad Hem Gertrude Steinről, Ezra Poundról, Ford Madox Fordról, és szerintem e tekintetben Scott Fitzgerald portréja a legjobb. Ez fakadhat abból is, hogy leghosszabban a köztük lévő barátságot taglalja a könyvben, de szerintem inkább azért, mert talán végül ő lett a legjobb barátja az évek folyamán. \r\nMindenesetre nagyon érdekes volt olvasni ekkora nevekről, és hétköznapi életükről. Tudni azt, hogy Hemingway utálta a keresztnevét, ezért inkább Hemnek szólította mindenki.\r\n\r\nFogok még tőle olvasni, ebben biztos vagyok, és felnőtt fejjel is meg lesz _Az öreg halász és a tenger_.",
+            "url": "https://moly.hu/ertekelesek/1967444",
+            "user": {
+                "id": 143253,
+                "login": "Trixi_Adzoa"
+            }
+        },
+        {
+            "id": 7562755,
+            "rating": 10,
+            "review": "Azt ​mondják, aki nem kedveli Hemingway-t, az olvassa a Vándorünnepet. Igazuk lehet, mert én nem tudtam a szívembe zárni Hemingway ízlésemnek időnként nyers és macho-beütésű mondatait eddig olvasott regényeiben. Tévedés ne essék, a Vándorünnepben is meg fogja mustrálni a szép nőket, de valahogy ez most így rendben volt, mert a párizsi 20-as évek szellemi forgatagában ez csak egy szemvillanás. Hisz van ott egy nagylelkű Ezra Pound, egy pszichotikus Fitzgerald és egy különc Gertrude Stein, csak hogy azokat említsem, akiknek a neve mond is valamit. A róluk megfestett sziporkázó képek és jelenetek a könyv csúcspontjai, ahogy a finom ételek és a nagy kirándulások megfestése is szívmelengető.",
+            "url": "https://moly.hu/ertekelesek/7562755",
+            "user": {
+                "id": 732,
+                "login": "Daniella78"
+            }
+        },
+        {
+            "id": 8138162,
+            "rating": 10,
+            "review": "Párizsi ​élet, élmények, élvezetek, tapasztalatok, emberi történetek - ahogy Hemingway elénk tárja. Érezni a kávézok, parkok az utcák bukéját; nézetek talákozását/ütközését. \r\nAzt hiszem, új kedvenccel bővült a lista...",
+            "url": "https://moly.hu/ertekelesek/8138162",
+            "user": {
+                "id": 89636,
+                "login": "SDániel"
+            }
+        },
+        {
+            "id": 6487319,
+            "rating": 10,
+            "review": "Első ​olyan olvasásom volt ez Hemingway-től, ami nem regény vagy kisregény, hanem gyakorlatilag egy novellafüzér. Az író ifjúkorának Párizsát tárja a szemünk elé hihetetlenül életszagúan, minden szépségével és nehézségével együtt, különös pikantériát pedig az ad az írásoknak, hogy bemutatja a kor nagyjait hétköznapi helyzetekben, így megjelenik többek között Gertrude Stein, Ezra Pound, Scott és Zelda Fitzgerald is. \r\nSzavakkal vissza nem adható az a hangulat, ami az írásokból érződik: Párizs utcáinak, kávéházainak, bárjainak, a Szajna menti partszakaszainak lüktetése, a mára halhatatlanná vált személyek apró-cseprő viselt dolgainak kendőzetlen felfedése, Hemingway és első feleségének, Hadley-nek kapcsolata, illetve fel-felbukkan egy-egy jelenetben a fiúk, Bumby is.\r\nHemingway írással való viszonya és ezzel kapcsolatos szokásai is megjelennek több részletben, szerintem rengeteget lehet belőle tanulni, szívesen a kezébe adnám kezdő - de akár már gyakorlott - íróknak is, fontolják meg Hemingway \"tanácsait\".\r\nIgyekeztem beosztani az olvasást, hogy sokáig tartson ez a hangulat, de hát egyszer vége lett... mindenesetre folytatom az életművet és szívből ajánlom, Párizs iránt érdeklődőknek is!",
+            "url": "https://moly.hu/ertekelesek/6487319",
+            "user": {
+                "id": 426291,
+                "login": "Luri"
+            }
+        }
+    ]
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_99c8b9c11b42f210d360eb52b24bcbea^id=99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_element_mapping action="delete_multiple" query="id=99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>99c8b9c11b42f210d360eb52b24bcbea</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>95c8b9c11b42f210d360eb52b24bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>99c8b9c11b42f210d360eb52b24bcbea</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>51c8b9c11b42f210d360eb52b24bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[04554969-3191-4485-9452-053012169401].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>99c8b9c11b42f210d360eb52b24bcbea</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>1dc8b9c11b42f210d360eb52b24bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=99c8b9c11b42f210d360eb52b24bcbea^sys_idNOT INd9c8b9c11b42f210d360eb52b24bcbf0"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD59c8b9c17c42f210d4bcabce6a64d3ef</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5e08284d1b46b210d360eb52b24bcb34</scope_name>
+        <serialized_content>{"FlowDesigner:FD59c8b9c17c42f210d4bcabce6a64d3ef":{"reviews":[{"$1_reviews":{"review":"String","review.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"review\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"582ef353-706d-4a34-af7d-fc79e0c1c7f5\"}"},"rating":"String","rating.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"rating\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"fcb3ac49-d4f9-406e-9279-627f67f278f6\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"98fffa44-5c55-485b-b3e8-1a9e2d097b91\"}"},"user":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"adb72223-fda5-4850-8110-cb460e601d48\"}"},"login":"String","login.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"login\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2956a875-4f79-4bb0-a467-99e847168b9c\"}"}},"user.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"7aa2f632-c762-4b0c-b6e8-c0f043e79c9e\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"url\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"14ad54f0-1b3a-44c5-829f-6c88c38d7437\"}"}}}],"reviews.$field_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"reviews\",\"mandatory\":\"false\",\"child_name\":\"reviews_object\",\"uiUniqueId\":\"e17e0c29-ec3f-4faa-9ab4-39f77881d625\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"reviews_object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"965a8817-6051-4450-93c1-d8fa034936e1\"}"}},"FlowDesigner:FD59c8b9c17c42f210d4bcabce6a64d3ef.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"20fb651a-a4d8-43f7-b9dc-eafdd6c3b445\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD59c8b9c17c42f210d4bcabce6a64d3ef\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5dc8b9c11b42f210d360eb52b24bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:17</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD59c8b9c17c42f210d4bcabce6a64d3ef,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=20fb651a-a4d8-43f7-b9dc-eafdd6c3b445</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">99c8b9c11b42f210d360eb52b24bcbea</model>
+        <model_id>99c8b9c11b42f210d360eb52b24bcbea</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_99c8b9c11b42f210d360eb52b24bcbea</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>d9c8b9c11b42f210d360eb52b24bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=99c8b9c11b42f210d360eb52b24bcbea"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_99c8b9c11b42f210d360eb52b24bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>11c8b9c11b42f210d360eb52b24bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=1692dd0d4742b210eec61525f16d4386^sys_idNOT IN6c68ddc91b0eb210d360eb52b24bcbaf"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d83a2a1f-f3b7-4e91-88e8-2be1b2a33f0d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bookid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>bookId</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Ratings">1692dd0d4742b210eec61525f16d4386</model>
+        <model_id>1692dd0d4742b210eec61525f16d4386</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_1692dd0d4742b210eec61525f16d4386</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:48</sys_created_on>
+        <sys_id>6c68ddc91b0eb210d360eb52b24bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6c68ddc91b0eb210d360eb52b24bcbaf"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1692dd0d4742b210eec61525f16d4386^sys_idNOT IN2692114d4742b210eec61525f16d430e,29c8f9c11b42f210d360eb52b24bcb15,2a92114d4742b210eec61525f16d4307,c968110d1b0eb210d360eb52b24bcb34"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=049e7c2b-aacb-4594-8a8b-a427b0c3d8ee,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Ratings">1692dd0d4742b210eec61525f16d4386</model>
+        <model_id>1692dd0d4742b210eec61525f16d4386</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>2692114d4742b210eec61525f16d430e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2692114d4742b210eec61525f16d430e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2692114d4742b210eec61525f16d430e"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD59c8f9c1a142f21060dbd08d52bdf402</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5e08284d1b46b210d360eb52b24bcb34</scope_name>
+        <serialized_content>{"FlowDesigner:FD59c8f9c1a142f21060dbd08d52bdf402":{"$COCollectionField":[{"reviews_object":{"review":"String","review.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"review\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"582ef353-706d-4a34-af7d-fc79e0c1c7f5\"}"},"rating":"String","rating.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"rating\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"fcb3ac49-d4f9-406e-9279-627f67f278f6\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"98fffa44-5c55-485b-b3e8-1a9e2d097b91\"}"},"user":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"adb72223-fda5-4850-8110-cb460e601d48\"}"},"login":"String","login.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"login\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2956a875-4f79-4bb0-a467-99e847168b9c\"}"}},"user.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"user\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"7aa2f632-c762-4b0c-b6e8-c0f043e79c9e\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"url\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"14ad54f0-1b3a-44c5-829f-6c88c38d7437\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"845d9637-5f14-4817-a027-35fbed041679\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Reviews\",\"mandatory\":\"false\",\"child_name\":\"reviews_object\",\"uiUniqueId\":\"7d623e4b-6b88-4813-a71f-98a6a96fea90\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD59c8f9c1a142f21060dbd08d52bdf402\",\"child_label\":\"reviews_object\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"0e04ffca-7762-4f3d-b3b7-1cf6a0693d6c\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"965a8817-6051-4450-93c1-d8fa034936e1\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD59c8f9c1a142f21060dbd08d52bdf402.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"845d9637-5f14-4817-a027-35fbed041679\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Reviews\",\"mandatory\":\"false\",\"child_name\":\"reviews_object\",\"uiUniqueId\":\"7d623e4b-6b88-4813-a71f-98a6a96fea90\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD59c8f9c1a142f21060dbd08d52bdf402\",\"child_label\":\"reviews_object\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"0e04ffca-7762-4f3d-b3b7-1cf6a0693d6c\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"965a8817-6051-4450-93c1-d8fa034936e1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5dc8f9c11b42f210d360eb52b24bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=reviews_object,child_name=reviews_object,child_type=object,child_type_label=Object,child_uiUniqueId=965a8817-6051-4450-93c1-d8fa034936e1,co_type_name=FD59c8f9c1a142f21060dbd08d52bdf402,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=845d9637-5f14-4817-a027-35fbed041679,sourceType=step,sourceUiUniqueId=0e04ffca-7762-4f3d-b3b7-1cf6a0693d6c,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=7d623e4b-6b88-4813-a71f-98a6a96fea90</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reviews</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Reviews</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Ratings">1692dd0d4742b210eec61525f16d4386</model>
+        <model_id>1692dd0d4742b210eec61525f16d4386</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>29c8f9c11b42f210d360eb52b24bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=29c8f9c11b42f210d360eb52b24bcb15"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=29c8f9c11b42f210d360eb52b24bcb15"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7105ea82-cc5d-4280-b770-28c8c051fd44</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Ratings">1692dd0d4742b210eec61525f16d4386</model>
+        <model_id>1692dd0d4742b210eec61525f16d4386</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>2a92114d4742b210eec61525f16d4307</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2a92114d4742b210eec61525f16d4307"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2a92114d4742b210eec61525f16d4307"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bd9f4e91-ea7a-4dee-89da-bc3e97879314</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reviews_json</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_41ba6b7cc3a02110e6a899ccc840ddaa">644848c9c3242110e6a899ccc840dd30</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Reviews JSON</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Ratings">1692dd0d4742b210eec61525f16d4386</model>
+        <model_id>1692dd0d4742b210eec61525f16d4386</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>c968110d1b0eb210d360eb52b24bcb34</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c968110d1b0eb210d360eb52b24bcb34"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c968110d1b0eb210d360eb52b24bcb34"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1692dd0d4742b210eec61525f16d4386"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1692dd0d4742b210eec61525f16d4386^sys_idNOT INa292114d4742b210eec61525f16d432c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Ratings">1692dd0d4742b210eec61525f16d4386</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>a292114d4742b210eec61525f16d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a292114d4742b210eec61525f16d432c^sys_idNOT INe9c8f9c11b42f210d360eb52b24bcb38"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 24/12/2025 12:41:32">a292114d4742b210eec61525f16d432c</action_status_metadata_id>
+        <condition>{{step[04554969-3191-4485-9452-053012169401].error_code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>OpenAPI step execution has failed</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[04554969-3191-4485-9452-053012169401].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:19</sys_created_on>
+        <sys_id>e9c8f9c11b42f210d360eb52b24bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:19</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>bookid</element>
+        <help/>
+        <hint>Moly.hu Book ID</hint>
+        <label>bookId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1692dd0d4742b210eec61525f16d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:48</sys_created_on>
+        <sys_id>7c68ddc91b0eb210d360eb52b24bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1692dd0d4742b210eec61525f16d4386"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reviews_json</element>
+        <help/>
+        <hint/>
+        <label>Reviews JSON</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 12:06:49</sys_created_on>
+        <sys_id>0d68110d1b0eb210d360eb52b24bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 12:06:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>6292114d4742b210eec61525f16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 11:41:32</sys_created_on>
+        <sys_id>a692114d4742b210eec61525f16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 11:41:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reviews</element>
+        <help/>
+        <hint/>
+        <label>Reviews</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-24 14:28:18</sys_created_on>
+        <sys_id>e9c8f9c11b42f210d360eb52b24bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Moly.hu Spoke" source="x_snc_moly_hu_spok">5e08284d1b46b210d360eb52b24bcb34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Moly.hu Spoke">5e08284d1b46b210d360eb52b24bcb34</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-24 14:28:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1692dd0d4742b210eec61525f16d4386"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>ca929d0d4742b210eec61525f16d4378</sys_id>
+        <latest_snapshot>1692dd0d4742b210eec61525f16d4386</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
